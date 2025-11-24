@@ -3,8 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://paulortiz199928.github.io',
-  base: '/c2pa-wiki',
+  site: 'https://c2pa.wiki',
   integrations: [
     starlight({
       title: 'C2PA Wiki',
