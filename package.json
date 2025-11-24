@@ -1,0 +1,30 @@
+{
+  "name": "c2pa-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulortiz199928/c2pa-wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/paulortiz199928/c2pa-wiki/issues"
+  },
+  "homepage": "https://github.com/paulortiz199928/c2pa-wiki#readme",
+  "dependencies": {
+    "@astrojs/starlight": "^0.36.2",
+    "astro": "^5.16.0",
+    "sharp": "^0.34.5"
+  }
+}
