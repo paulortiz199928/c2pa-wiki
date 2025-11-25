@@ -1,0 +1,58 @@
+---
+/**
+ * WebSiteSchema Component
+ * Generates Schema.org WebSite structured data with SearchAction
+ *
+ * This component creates site-level markup that enables:
+ * - Google Sitelinks Search Box in search results
+ * - Direct site search from Google results
+ * - Better site identity recognition
+ * - Voice assistant compatibility
+ *
+ * Should be included on all pages, typically in the main layout.
+ *
+ * Usage:
+ * ---
+ * import WebSiteSchema from '@components/WebSiteSchema.astro';
+ * ---
+ * <WebSiteSchema />
+ *
+ * @see https://schema.org/WebSite
+ * @see https://developers.google.com/search/docs/appearance/structured-data/sitelinks-searchbox
+ */
+
+// Site configuration
+const SITE_NAME = "C2PA Wiki";
+const SITE_URL = "https://c2pa.wiki";
+const SITE_DESCRIPTION = "Comprehensive documentation for the Coalition for Content Provenance and Authenticity (C2PA). Learn about content authentication, provenance tracking, and digital media integrity.";
+
+// Generate Schema.org WebSite structured data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": SITE_NAME,
+  "url": SITE_URL,
+  "description": SITE_DESCRIPTION,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${SITE_URL}/search?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": [
+    "en",
+    "zh-CN",
+    "zh-TW",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "ru"
+  ]
+};
+---
+
+<!-- Schema.org WebSite structured data in JSON-LD format -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

@@ -1,0 +1,74 @@
+---
+/**
+ * HowToSchema Component
+ * Generates Schema.org HowTo structured data
+ *
+ * This component creates step-by-step instruction markup that helps:
+ * - Google display recipe-card-style results
+ * - Featured snippets for "how to" queries
+ * - Step-by-step navigation in search results
+ * - Voice assistant instructions
+ *
+ * Usage:
+ * ---
+ * import HowToSchema from '@components/HowToSchema.astro';
+ * const howTo = {
+ *   name: "How to verify C2PA content",
+ *   description: "Learn how to verify...",
+ *   totalTime: "PT5M",
+ *   steps: [...]
+ * };
+ * ---
+ * <HowToSchema data={howTo} />
+ *
+ * @see https://schema.org/HowTo
+ * @see https://developers.google.com/search/docs/appearance/structured-data/how-to
+ */
+
+interface HowToStep {
+  name: string;
+  text: string;
+  url?: string;
+  image?: string;
+}
+
+interface HowToData {
+  name: string;
+  description: string;
+  totalTime?: string; // ISO 8601 duration format (e.g., "PT5M" for 5 minutes)
+  steps: HowToStep[];
+  image?: string;
+}
+
+interface Props {
+  data: HowToData;
+}
+
+const { data } = Astro.props;
+
+// Validate HowTo data
+if (!data || !data.steps || data.steps.length === 0) {
+  console.warn('HowToSchema: No steps provided');
+}
+
+// Generate Schema.org HowTo structured data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": data.name,
+  "description": data.description,
+  ...(data.totalTime && { "totalTime": data.totalTime }),
+  ...(data.image && { "image": data.image }),
+  "step": data.steps.map((step, index) => ({
+    "@type": "HowToStep",
+    "position": index + 1,
+    "name": step.name,
+    "text": step.text,
+    ...(step.url && { "url": step.url }),
+    ...(step.image && { "image": step.image })
+  }))
+};
+---
+
+<!-- Schema.org HowTo structured data in JSON-LD format -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

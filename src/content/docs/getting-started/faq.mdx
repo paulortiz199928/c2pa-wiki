@@ -3,8 +3,16 @@ title: Frequently Asked Questions (FAQ)
 ---
 
 import FAQSchema from '../../../components/FAQSchema.astro';
+import BreadcrumbSchema from '../../../components/BreadcrumbSchema.astro';
+import WebSiteSchema from '../../../components/WebSiteSchema.astro';
 import { faqData } from '../../../data/faq-en';
 
+<WebSiteSchema />
+<BreadcrumbSchema items={[
+  { name: "Home", url: "https://c2pa.wiki/" },
+  { name: "Getting Started", url: "https://c2pa.wiki/getting-started/quick-start/" },
+  { name: "FAQ", url: "https://c2pa.wiki/getting-started/faq/" }
+]} />
 <FAQSchema faqs={faqData} />
 
 # Frequently Asked Questions (FAQ)

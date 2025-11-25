@@ -2,6 +2,19 @@
 title: C2PA Quick Start Guide
 ---
 
+import HowToSchema from '../../../components/HowToSchema.astro';
+import BreadcrumbSchema from '../../../components/BreadcrumbSchema.astro';
+import WebSiteSchema from '../../../components/WebSiteSchema.astro';
+import { quickStartHowTo } from '../../../data/howto-quickstart-en';
+
+<WebSiteSchema />
+<BreadcrumbSchema items={[
+  { name: "Home", url: "https://c2pa.wiki/" },
+  { name: "Getting Started", url: "https://c2pa.wiki/getting-started/quick-start/" },
+  { name: "Quick Start", url: "https://c2pa.wiki/getting-started/quick-start/" }
+]} />
+<HowToSchema data={quickStartHowTo} />
+
 # C2PA Quick Start Guide
 
 Get started with C2PA in 5 minutes! This guide will help you understand, verify, and create C2PA-signed content.
@@ -501,7 +514,7 @@ https://contentcredentials.org/verify
 
 ### Performance Issues
 - C2PA adds ~10-50KB per manifest (minimal)
-- Signing takes <1 second for typical files
+- Signing takes less than 1 second for typical files
 - Verification is nearly instant
 
 ---

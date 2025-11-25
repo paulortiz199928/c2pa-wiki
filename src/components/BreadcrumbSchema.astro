@@ -1,0 +1,56 @@
+---
+/**
+ * BreadcrumbSchema Component
+ * Generates Schema.org BreadcrumbList structured data
+ *
+ * This component creates breadcrumb navigation markup that helps:
+ * - Google understand site hierarchy
+ * - Display breadcrumb trails in search results
+ * - Pass PageRank through site structure
+ * - Improve user navigation experience
+ *
+ * Usage:
+ * ---
+ * import BreadcrumbSchema from '@components/BreadcrumbSchema.astro';
+ * const breadcrumbs = [
+ *   { name: "Home", url: "https://c2pa.wiki/" },
+ *   { name: "Getting Started", url: "https://c2pa.wiki/getting-started/quick-start/" }
+ * ];
+ * ---
+ * <BreadcrumbSchema items={breadcrumbs} />
+ *
+ * @see https://schema.org/BreadcrumbList
+ * @see https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
+ */
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+// Validate breadcrumb data
+if (!items || items.length === 0) {
+  console.warn('BreadcrumbSchema: No breadcrumb items provided');
+}
+
+// Generate Schema.org BreadcrumbList structured data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    "item": item.url
+  }))
+};
+---
+
+<!-- Schema.org BreadcrumbList structured data in JSON-LD format -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
