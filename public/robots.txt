@@ -1,0 +1,12 @@
+# robots.txt for C2PA Wiki
+# https://c2pa.wiki
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://c2pa.wiki/sitemap-index.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
