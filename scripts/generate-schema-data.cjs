@@ -141,44 +141,87 @@ function parseQuickStart(markdownContent, language) {
   }
 
   const verifySection = verifyMatch[0];
-  const lines = verifySection.split('\n');
 
-  let currentStep = null;
-  let currentText = [];
+  // Try to extract from "Method 1: Online Tool" section (for en/zh-Hans/zh-Hant)
+  const method1Match = verifySection.match(/### Method 1.*?\n\n(?:.*?\n\n)?(\d+\..+?)(?=\n\n(?:###|\*\*Try))/s);
 
-  for (const line of lines) {
-    // Match step numbers like "1. Visit" or "**1. Step**"
-    const stepMatch = line.match(/^(?:\*\*)?\d+\.\s+(.+?)(?:\*\*)?$/);
+  if (method1Match) {
+    // Parse numbered list from Method 1
+    const listText = method1Match[1];
+    const lines = listText.split('\n');
 
-    if (stepMatch) {
-      // Save previous step
-      if (currentStep && currentText.length > 0) {
-        steps.push({
-          name: currentStep,
-          text: cleanAnswer(currentText.join(' '))
-        });
+    let currentStep = null;
+    let currentText = [];
+
+    for (const line of lines) {
+      const stepMatch = line.match(/^(\d+)\.\s+(.+)$/);
+
+      if (stepMatch) {
+        // Save previous step
+        if (currentStep) {
+          steps.push({
+            name: currentStep,
+            text: cleanAnswer(currentText.join(' '))
+          });
+        }
+
+        currentStep = stepMatch[2].trim();
+        currentText = [];
+      } else if (currentStep && line.trim() && line.trim().startsWith('-')) {
+        // Collect bullet points as part of description
+        currentText.push(line.trim());
+      }
+    }
+
+    // Add last step
+    if (currentStep) {
+      steps.push({
+        name: currentStep,
+        text: cleanAnswer(currentText.join(' '))
+      });
+    }
+  }
+
+  // If Method 1 parsing failed, try direct numbered list parsing
+  if (steps.length === 0) {
+    const lines = verifySection.split('\n');
+    let currentStep = null;
+    let currentText = [];
+
+    for (const line of lines) {
+      // Match step numbers like "1. Visit" or "**1. Step**"
+      const stepMatch = line.match(/^(?:\*\*)?\d+\.\s+(.+?)(?:\*\*)?$/);
+
+      if (stepMatch) {
+        // Save previous step
+        if (currentStep && currentText.length > 0) {
+          steps.push({
+            name: currentStep,
+            text: cleanAnswer(currentText.join(' '))
+          });
+        }
+
+        currentStep = stepMatch[1].trim();
+        currentText = [];
+        continue;
       }
 
-      currentStep = stepMatch[1].trim();
-      currentText = [];
-      continue;
+      // Collect step description (but skip code blocks and method headings)
+      if (currentStep && line.trim() !== '' && !line.startsWith('#') && !line.startsWith('```')) {
+        currentText.push(line.trim());
+      }
     }
 
-    // Collect step description
-    if (currentStep && line.trim() !== '' && !line.startsWith('#')) {
-      currentText.push(line.trim());
+    // Add last step
+    if (currentStep && currentText.length > 0) {
+      steps.push({
+        name: currentStep,
+        text: cleanAnswer(currentText.join(' '))
+      });
     }
   }
 
-  // Add last step
-  if (currentStep && currentText.length > 0) {
-    steps.push({
-      name: currentStep,
-      text: cleanAnswer(currentText.join(' '))
-    });
-  }
-
-  // If parsing failed, return default steps
+  // If parsing still failed, return default steps
   if (steps.length === 0) {
     return getDefaultHowToSteps(language);
   }
@@ -241,19 +284,20 @@ ${faqsCode}
  */
 function generateHowToDataFile(steps, locale, label, title, description) {
   const stepsCode = steps.map((step, index) => {
-    const stepObj = {
-      name: step.name,
-      text: step.text,
-      url: index === 0 ? 'https://contentcredentials.org/verify' : undefined
-    };
+    const hasUrl = index === 0;
+    const parts = [];
 
-    const lines = [`    {`, `      name: '${step.name}',`, `      text: '${step.text}'`];
-    if (stepObj.url) {
-      lines.push(`      url: '${stepObj.url}'`);
+    parts.push('    {');
+    parts.push(`      name: '${step.name}',`);
+    parts.push(`      text: '${step.text || ''}'${hasUrl ? ',' : ''}`);
+
+    if (hasUrl) {
+      parts.push(`      url: 'https://contentcredentials.org/verify'`);
     }
-    lines.push('    }');
 
-    return lines.join(',\n');
+    parts.push('    }');
+
+    return parts.join('\n');
   }).join(',\n');
 
   return `/**

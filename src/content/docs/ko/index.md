@@ -1,26 +1,8 @@
----
-title: C2PA Wiki
-description: Content Provenance and Authenticity Documentation
-template: splash
-hero:
-  title: C2PA Wiki
-  tagline: 콘텐츠 출처 및 진위성 종합 가이드
-  actions:
-    - text: 빠른 시작
-      link: /ko/getting-started/quick-start/
-      icon: right-arrow
-      variant: primary
-    - text: 사양 보기
-      link: /ko/specifications/
-      icon: external
-      variant: secondary
----
-
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 다국어 규격, 도구, 라이브러리 및 학습 자료를 포함한 C2PA(Coalition for Content Provenance and Authenticity) 리소스 모음입니다.
 
-**[English](/) | [简体中文](/zh-cn/) | [繁體中文](/zh-tw/) | [日本語](/ja/) | 한국어 | [Deutsch](/de/) | [Français](/fr/) | [Русский](/ru/)**
+**[English](../../README.md) | [简体中文](../zh-Hans/README.md) | [繁體中文](../zh-Hant/README.md) | [日本語](../ja/README.md) | 한국어 | [Deutsch](../de/README.md) | [Français](../fr/README.md) | [Русский](../ru/README.md)**
 
 C2PA는 게시자, 크리에이터 및 소비자가 다양한 유형의 미디어 출처를 추적할 수 있는 개방형 기술 표준입니다. AI 생성 콘텐츠의 시대에 C2PA는 콘텐츠의 진위성과 출처를 검증하는 데 도움이 됩니다.
 
@@ -63,18 +45,18 @@ C2PA 규격 버전 2.2는 여러 언어로 제공됩니다. 이러한 번역은 
 
 | 언어 | 문서 | 상태 | 방법 | 최종 업데이트 |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ 공식 | C2PA Org | 2025년 5월 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
-| 🇰🇷 한국어 | [C2PA 사양 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
+| 🇬🇧 English | [C2PA Specification 2.2](../../docs/specifications/C2PA_Specification.pdf) | ✅ 공식 | C2PA Org | 2025년 5월 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](../../docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](../../docs/specifications/C2PA_Specification_ja.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](../../docs/specifications/C2PA_Specification_de.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](../../docs/specifications/C2PA_Specification_fr.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
+| 🇰🇷 한국어 | [C2PA 사양 2.2](docs/specifications/C2PA_Specification.pdf) | 🔄 베타 | AI + 검토 | 2025년 |
 | 🇪🇸 Español | 곧 출시 예정 | 🚧 계획됨 | - | - |
 | 🇵🇹 Português | 곧 출시 예정 | 🚧 계획됨 | - | - |
 
 > **번역 안내**: 영어 이외의 번역은 커뮤니티 검토와 함께 AI 지원(DeepL)을 받습니다. 정확성을 위해 노력하고 있지만 오류가 있을 수 있습니다. 원어민께서는 [문제를 보고](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)하거나 수정 사항을 제출해 주시기 바랍니다. 영어 버전이 공식 참조 문서입니다.
 
-**빠른 탐색**: [모든 규격 보기 →](/ko/specifications/)
+**빠른 탐색**: [모든 규격 보기 →](../../docs/README.md)
 
 ---
 
@@ -89,9 +71,9 @@ C2PA 규격 버전 2.2는 여러 언어로 제공됩니다. 이러한 번역은 
 - ✅ 크리에이터 귀속 및 지적 재산 보호
 
 **더 깊이 알아보고 싶으신가요?**
-- 📖 [5분 빠른 시작 가이드](quick-start/) - 즉시 실습하기
-- ❓ [전체 FAQ](faq/) - 25개 이상의 상세한 질문에 대한 답변
-- 📚 [기술 규격](/ko/specifications/) - 표준에 대한 심층 분석
+- 📖 [5분 빠른 시작 가이드](quick-start.md) - 즉시 실습하기
+- ❓ [전체 FAQ](faq.md) - 25개 이상의 상세한 질문에 대한 답변
+- 📚 [기술 규격](../../docs/README.md) - 표준에 대한 심층 분석
 
 ---
 
@@ -123,7 +105,7 @@ C2PA는 출처 정보가 포함된 암호화 서명된 메타데이터("매니�
 **비용**: 표준 및 도구는 무료입니다. 인증서 비용: 연간 약 $50-500.
 </details>
 
-**[→ 전체 25개 이상의 FAQ 보기](faq/)** - 기술 세부 사항, 개인정보 보호, 보안 및 채택에 대한 내용을 다룹니다.
+**[→ 전체 25개 이상의 FAQ 보기](faq.md)** - 기술 세부 사항, 개인정보 보호, 보안 및 채택에 대한 내용을 다룹니다.
 
 ---
 
@@ -181,7 +163,7 @@ C2PA는 출처 정보가 포함된 암호화 서명된 메타데이터("매니�
 
 ### 튜토리얼
 
-- [C2PA 빠른 시작 가이드](quick-start/) - C2PA 구현에 대한 5분 소개
+- [C2PA 빠른 시작 가이드](quick-start.md) - C2PA 구현에 대한 5분 소개
 - [C2PA 개발자 문서](https://opensource.contentauthenticity.org/docs) - 공식 시작 가이드 및 문서
 - [C2PA 개발자 튜토리얼](https://opensource.contentauthenticity.org/docs/getting-started) - 단계별 구현 튜토리얼
 

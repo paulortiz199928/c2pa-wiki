@@ -24,22 +24,22 @@ export const quickStartHowTo: HowToData = {
   description: 'C2PA ツールを使用してデジタルコンテンツの真正性と出所を検証する方法を、わずか 5 分で学びます。',
   totalTime: 'PT5M',
   steps: [
-    {,
-      name: 'Visit Content Credentials Verify',,
+    {
+      name: 'Visit Content Credentials Verify',
       text: 'Open your web browser and navigate to https://contentcredentials.org/verify to access the official C2PA verification tool.',
-      url: 'https://contentcredentials.org/verify',
+      url: 'https://contentcredentials.org/verify'
     },
-    {,
-      name: 'Upload your media file',,
-      text: 'Drag and drop your image, video, or document onto the verification page, or click to browse and select the file from your device.',
+    {
+      name: 'Upload your media file',
+      text: 'Drag and drop your image, video, or document onto the verification page, or click to browse and select the file from your device.'
     },
-    {,
-      name: 'Review provenance information',,
-      text: 'Examine the displayed information including creator identity, creation date, editing history, and signature validation status.',
+    {
+      name: 'Review provenance information',
+      text: 'Examine the displayed information including creator identity, creation date, editing history, and signature validation status.'
     },
-    {,
-      name: 'Verify signature status',,
-      text: 'Check that the signature shows as Valid with a green checkmark, confirming the content has not been tampered with since signing.',
+    {
+      name: 'Verify signature status',
+      text: 'Check that the signature shows as Valid with a green checkmark, confirming the content has not been tampered with since signing.'
     }
   ]
 };
