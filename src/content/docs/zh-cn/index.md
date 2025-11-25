@@ -1,3 +1,21 @@
+---
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation
+template: splash
+hero:
+  title: C2PA Wiki
+  tagline: 内容来源和真实性综合指南
+  actions:
+    - text: 快速入门
+      link: /zh-cn/getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: 查看规范
+      link: /zh-cn/specifications/
+      icon: external
+      variant: secondary
+---
+
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > C2PA（内容来源和真实性联盟）资源精选列表，包括多语言规范、工具、库和学习材料。

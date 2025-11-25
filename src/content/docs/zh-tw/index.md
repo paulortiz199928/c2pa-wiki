@@ -1,3 +1,21 @@
+---
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation
+template: splash
+hero:
+  title: C2PA Wiki
+  tagline: 內容來源和真實性綜合指南
+  actions:
+    - text: 快速入門
+      link: /zh-tw/getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: 查看規範
+      link: /zh-tw/specifications/
+      icon: external
+      variant: secondary
+---
+
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > C2PA(內容來源與真實性聯盟)資源精選清單,包含多語言規範、工具、程式庫和學習資料。
