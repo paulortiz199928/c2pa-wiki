@@ -25,17 +25,21 @@ export const quickStartHowTo: HowToData = {
   totalTime: 'PT5M',
   steps: [
     {
-      name: 'Visit https://contentcredentials.org/verify',
+      name: '**Visit the verification tool**: Open your web browser and navigate to https://contentcredentials.org/verify to access the official C2PA verification tool.',
       text: '',
       url: 'https://contentcredentials.org/verify'
     },
     {
-      name: 'Drag and drop any image/video/document',
+      name: '**Upload your media file**: Drag and drop your image, video, or document onto the verification page, or click to browse and select the file from your device.',
       text: ''
     },
     {
-      name: 'View provenance information:',
-      text: '- Creator identity - Editing history - Signature status - Original content (if available)'
+      name: '**Review provenance information**: Examine the displayed information including:',
+      text: '- Creator identity - Creation date - Editing history - Tools and software used'
+    },
+    {
+      name: '**Verify signature status**: Check that the signature shows as "Valid" with a green checkmark, confirming the content has not been tampered with since signing.',
+      text: ''
     }
   ]
 };

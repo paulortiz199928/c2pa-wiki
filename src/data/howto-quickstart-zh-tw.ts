@@ -25,17 +25,21 @@ export const quickStartHowTo: HowToData = {
   totalTime: 'PT5M',
   steps: [
     {
-      name: '檢視來源資訊:',
-      text: '- 創作者身份 - 編輯歷史 - 簽章狀態 - 原始內容(如果可用) 立即嘗試範例圖片:https://contentauthenticity.org/examples 瀏覽時自動驗證:',
+      name: '**訪問驗證工具**:打開網頁瀏覽器並訪問 https://contentcredentials.org/verify 以使用官方 C2PA 驗證工具。',
+      text: '',
       url: 'https://contentcredentials.org/verify'
     },
     {
-      name: '安裝 [Content Credentials Extension](https://chrome.google.com/webstore)',
-      text: '- 適用於 Chrome、Edge、Brave'
+      name: '**上傳媒體檔案**:將圖片、影片或文件拖放到驗證頁面,或點擊瀏覽並從裝置中選擇檔案。',
+      text: ''
     },
     {
-      name: '點選圖示以檢視來源詳情',
-      text: '適用於開發者和進階使用者: cargo install c2patool brew install c2patool c2patool photo.jpg c2patool photo.jpg --detailed c2patool photo.jpg --output manifest.json c2patool *.jpg File: photo.jpg Status: ✓ Valid C2PA signature Creator: John Doe (john@example.com) Created: 2025-11-21T10:30:00'
+      name: '**檢視來源資訊**:檢查顯示的資訊,包括:',
+      text: '- 創作者身份 - 建立日期 - 編輯歷史 - 使用的工具和軟體'
+    },
+    {
+      name: '**驗證簽章狀態**:確認簽章顯示為「有效」並帶有綠色勾號,這表明內容自簽章後未被竄改。',
+      text: ''
     }
   ]
 };

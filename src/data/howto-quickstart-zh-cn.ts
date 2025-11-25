@@ -25,17 +25,21 @@ export const quickStartHowTo: HowToData = {
   totalTime: 'PT5M',
   steps: [
     {
-      name: '查看来源信息：',
-      text: '- 创作者身份 - 编辑历史 - 签名状态 - 原始内容（如果可用） 立即尝试 示例图像：https://contentauthenticity.org/examples 在浏览时自动验证：',
+      name: '**访问验证工具**：打开网页浏览器并访问 https://contentcredentials.org/verify 以使用官方 C2PA 验证工具。',
+      text: '',
       url: 'https://contentcredentials.org/verify'
     },
     {
-      name: '安装[内容凭证扩展](https://chrome.google.com/webstore)',
-      text: '- 适用于 Chrome、Edge、Brave'
+      name: '**上传媒体文件**：将图片、视频或文档拖放到验证页面，或点击浏览并从设备中选择文件。',
+      text: ''
     },
     {
-      name: '点击图标查看来源详情',
-      text: '对于开发者和高级用户： cargo install c2patool brew install c2patool c2patool photo.jpg c2patool photo.jpg --detailed c2patool photo.jpg --output manifest.json c2patool *.jpg File: photo.jpg Status: ✓ Valid C2PA signature Creator: John Doe (john@example.com) Created: 2025-11-21T10:30:00'
+      name: '**查看来源信息**：检查显示的信息，包括：',
+      text: '- 创作者身份 - 创建日期 - 编辑历史 - 使用的工具和软件'
+    },
+    {
+      name: '**验证签名状态**：确认签名显示为"有效"并带有绿色勾号，这表明内容自签名后未被篡改。',
+      text: ''
     }
   ]
 };

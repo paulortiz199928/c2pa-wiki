@@ -142,8 +142,9 @@ function parseQuickStart(markdownContent, language) {
 
   const verifySection = verifyMatch[0];
 
-  // Try to extract from "Method 1: Online Tool" section (for en/zh-Hans/zh-Hant)
-  const method1Match = verifySection.match(/### Method 1.*?\n\n(?:.*?\n\n)?(\d+\..+?)(?=\n\n(?:###|\*\*Try))/s);
+  // Try to extract from "Method 1: Online Tool" section (for all languages)
+  // Support both English "Method 1:" and Chinese "方法 1："
+  const method1Match = verifySection.match(/### (?:Method|方法) 1[：:].*?\n\n(?:.*?\n\n)?(\d+\..+?)(?=\n\n(?:###|\*\*))/s);
 
   if (method1Match) {
     // Parse numbered list from Method 1
