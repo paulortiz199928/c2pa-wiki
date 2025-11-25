@@ -71,12 +71,12 @@ C2PA 规范涵盖：
 
 ## 获取帮助
 
-- [技术问答](/getting-started/faq/)
+- [技术问答](/zh/getting-started/faq/)
 - [社区讨论](https://github.com/paulortiz199928/awesome-c2pa/discussions)
 - [报告翻译问题](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)
 
 ## 下一步
 
-- 阅读 [快速入门指南](/getting-started/quick-start/)
-- 探索 [工具和库](/tools/official/)
-- 加入 [社区](/community/contributing/)
+- 阅读 [快速入门指南](/zh/getting-started/quick-start/)
+- 探索 [工具和库](/zh/tools/official/)
+- 加入 [社区](/zh/community/contributing/)
