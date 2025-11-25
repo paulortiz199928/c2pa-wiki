@@ -91,7 +91,7 @@ C2PA 目前支持：
 
 ### 如何开始？
 
-1. 阅读我们的 [快速入门指南](/zh/getting-started/quick-start/)
+1. 阅读我们的 [快速入门指南](/zh-cn/getting-started/quick-start/)
 2. 尝试 [在线验证器](https://contentcredentials.org/verify)
 3. 安装 [c2pa-node](https://github.com/contentauth/c2pa-node-v2) SDK
 4. 获取签名证书
@@ -106,6 +106,6 @@ C2PA 目前支持：
 
 找不到答案？
 
-- 查看 [完整文档](/zh/specifications/)
+- 查看 [完整文档](/zh-cn/specifications/)
 - 在 [GitHub 讨论](https://github.com/paulortiz199928/awesome-c2pa/discussions) 中提问
 - 阅读 [官方规范](https://c2pa.org/specifications/)

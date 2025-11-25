@@ -7,11 +7,11 @@ hero:
   tagline: 内容来源和真实性综合指南
   actions:
     - text: 快速入门
-      link: /zh/getting-started/quick-start/
+      link: /zh-cn/getting-started/quick-start/
       icon: right-arrow
       variant: primary
     - text: 查看规范
-      link: /zh/specifications/
+      link: /zh-cn/specifications/
       icon: external
       variant: secondary
 ---
@@ -31,9 +31,9 @@ hero:
 
 准备好了吗？查看我们的资源：
 
-- [快速入门指南](/zh/getting-started/quick-start/) - 立即上手
-- [常见问题](/zh/getting-started/faq/) - 常见问题解答
-- [技术规范](/zh/specifications/) - 技术深入探讨
+- [快速入门指南](/zh-cn/getting-started/quick-start/) - 立即上手
+- [常见问题](/zh-cn/getting-started/faq/) - 常见问题解答
+- [技术规范](/zh-cn/specifications/) - 技术深入探讨
 
 ### 多语言规范
 
