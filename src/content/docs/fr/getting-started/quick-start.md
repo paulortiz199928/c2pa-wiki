@@ -1,3 +1,7 @@
+---
+title: Guide de démarrage rapide C2PA
+---
+
 # Guide de démarrage rapide C2PA
 
 Démarrez avec C2PA en 5 minutes ! Ce guide vous aidera à comprendre, vérifier et créer du contenu signé C2PA.

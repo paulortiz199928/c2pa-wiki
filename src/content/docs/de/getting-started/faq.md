@@ -1,3 +1,7 @@
+---
+title: Häufig gestellte Fragen (FAQ)
+---
+
 # Häufig gestellte Fragen (FAQ)
 
 ## Inhaltsverzeichnis

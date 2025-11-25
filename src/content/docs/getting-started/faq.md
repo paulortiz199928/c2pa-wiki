@@ -1,3 +1,7 @@
+---
+title: Frequently Asked Questions (FAQ)
+---
+
 # Frequently Asked Questions (FAQ)
 
 ## Table of Contents

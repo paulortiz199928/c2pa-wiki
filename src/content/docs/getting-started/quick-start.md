@@ -1,3 +1,7 @@
+---
+title: C2PA Quick Start Guide
+---
+
 # C2PA Quick Start Guide
 
 Get started with C2PA in 5 minutes! This guide will help you understand, verify, and create C2PA-signed content.

@@ -1,3 +1,7 @@
+---
+title: Foire aux questions (FAQ)
+---
+
 # Foire aux questions (FAQ)
 
 ## Table des matières

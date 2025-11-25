@@ -1,3 +1,7 @@
+---
+title: C2PA Schnellstartanleitung
+---
+
 # C2PA Schnellstartanleitung
 
 Starten Sie in 5 Minuten mit C2PA! Diese Anleitung hilft Ihnen, C2PA-signierte Inhalte zu verstehen, zu verifizieren und zu erstellen.
