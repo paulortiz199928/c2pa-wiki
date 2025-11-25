@@ -43,41 +43,55 @@ log(`🚀 Starting content sync from awesome-c2pa...\n`, 'blue');
 log(`Source: ${path.resolve(AWESOME_PATH)}`, 'blue');
 log(`Target: ${WIKI_PATH}\n`, 'blue');
 
-// 文件映射配置 - 匹配 awesome-c2pa 的实际文件结构
+// 语言配置 - 匹配 awesome-c2pa i18n 目录和 c2pa-wiki locale
+const LANGUAGES = [
+  { code: 'zh-Hans', wikiLocale: 'zh-cn', label: '简体中文' },
+  { code: 'zh-Hant', wikiLocale: 'zh-tw', label: '繁體中文' },
+  { code: 'ja', wikiLocale: 'ja', label: '日本語' },
+  { code: 'ko', wikiLocale: 'ko', label: '한국어' },
+  { code: 'de', wikiLocale: 'de', label: 'Deutsch' },
+  { code: 'fr', wikiLocale: 'fr', label: 'Français' },
+  { code: 'ru', wikiLocale: 'ru', label: 'Русский' },
+];
+
+// 文件映射配置 - 匹配 awesome-c2pa 的新目录结构 (重构后)
 const FILE_MAPPINGS = [
-  // 英文首页 (注意: 需要手动添加 frontmatter，这里只做简单复制)
+  // 英文首页
   {
     source: 'README.md',
     target: 'src/content/docs/index.md',
     note: '⚠️  需要手动添加 splash template frontmatter'
   },
-  // 中文首页
+  // 英文快速入门指南 (新路径: docs/guides/)
   {
-    source: 'README_zh-Hans.md',
-    target: 'src/content/docs/zh-cn/index.md',
-    note: '⚠️  需要手动添加 splash template frontmatter'
-  },
-  // 英文快速入门指南
-  {
-    source: 'docs/Quick_Start_Guide.md',
+    source: 'docs/guides/quick-start.md',
     target: 'src/content/docs/getting-started/quick-start.md'
   },
-  // 英文常见问题
+  // 英文常见问题 (新路径: docs/guides/)
   {
-    source: 'docs/FAQ.md',
+    source: 'docs/guides/faq.md',
     target: 'src/content/docs/getting-started/faq.md'
   },
-  // 中文快速入门指南
-  {
-    source: 'docs/Quick_Start_Guide_zh-Hans.md',
-    target: 'src/content/docs/zh-cn/getting-started/quick-start.md'
-  },
-  // 中文常见问题
-  {
-    source: 'docs/FAQ_zh-Hans.md',
-    target: 'src/content/docs/zh-cn/getting-started/faq.md'
-  },
 ];
+
+// 为每种语言添加翻译文件映射 (新的 i18n/ 目录结构)
+LANGUAGES.forEach(lang => {
+  FILE_MAPPINGS.push(
+    {
+      source: `i18n/${lang.code}/README.md`,
+      target: `src/content/docs/${lang.wikiLocale}/index.md`,
+      note: '⚠️  需要手动添加 splash template frontmatter'
+    },
+    {
+      source: `i18n/${lang.code}/quick-start.md`,
+      target: `src/content/docs/${lang.wikiLocale}/getting-started/quick-start.md`
+    },
+    {
+      source: `i18n/${lang.code}/faq.md`,
+      target: `src/content/docs/${lang.wikiLocale}/getting-started/faq.md`
+    }
+  );
+});
 
 // PDF 规范文件 - awesome-c2pa 中的实际路径
 const PDF_FILES = [
@@ -195,10 +209,12 @@ if (failedCount > 0) {
 }
 
 log(`\n📦 Synced Files:`, 'blue');
-log(`   • README (English & Chinese)`);
-log(`   • Quick Start Guide (English & Chinese)`);
-log(`   • FAQ (English & Chinese)`);
+log(`   • README (English + 7 translations = 8 languages)`);
+log(`   • Quick Start Guide (English + 7 translations = 8 languages)`);
+log(`   • FAQ (English + 7 translations = 8 languages)`);
 log(`   • PDF Specifications (5 languages)`);
+log(`\n🌍 Supported Languages:`, 'blue');
+log(`   • English, 简体中文, 繁體中文, 日本語, 한국어, Deutsch, Français, Русский`);
 
 log(`\n✨ Sync completed!\n`, 'green');
 
