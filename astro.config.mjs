@@ -21,7 +21,7 @@ export default defineConfig({
           label: 'English',
           lang: 'en',
         },
-        zh: {
+        'zh-CN': {
           label: '简体中文',
           lang: 'zh-CN',
         },
@@ -30,41 +30,41 @@ export default defineConfig({
         {
           label: 'Getting Started',
           translations: {
-            zh: '入门指南',
+            'zh-CN': '入门指南',
           },
           items: [
             {
               label: 'Introduction',
               link: '/',
-              translations: { zh: '简介' }
+              translations: { 'zh-CN': '简介' }
             },
             {
               label: 'Quick Start',
               link: '/getting-started/quick-start/',
-              translations: { zh: '快速入门' }
+              translations: { 'zh-CN': '快速入门' }
             },
             {
               label: 'FAQ',
               link: '/getting-started/faq/',
-              translations: { zh: '常见问题' }
+              translations: { 'zh-CN': '常见问题' }
             },
           ],
         },
         {
           label: 'Specifications',
           translations: {
-            zh: '技术规范',
+            'zh-CN': '技术规范',
           },
           items: [
             {
               label: 'Overview',
               link: '/specifications/',
-              translations: { zh: '概述' }
+              translations: { 'zh-CN': '概述' }
             },
             {
               label: 'C2PA Specification v2.2',
               link: '/specifications/C2PA_Specification.pdf',
-              translations: { zh: 'C2PA 规范 v2.2' },
+              translations: { 'zh-CN': 'C2PA 规范 v2.2' },
               attrs: { target: '_blank' }
             },
           ],
@@ -72,31 +72,31 @@ export default defineConfig({
         {
           label: 'Tools & Libraries',
           translations: {
-            zh: '工具和库',
+            'zh-CN': '工具和库',
           },
           items: [
             {
               label: 'Official Tools',
               link: '/tools/official/',
-              translations: { zh: '官方工具' }
+              translations: { 'zh-CN': '官方工具' }
             },
           ],
         },
         {
           label: 'Community',
           translations: {
-            zh: '社区',
+            'zh-CN': '社区',
           },
           items: [
             {
               label: 'Contributing',
               link: '/community/contributing/',
-              translations: { zh: '贡献指南' }
+              translations: { 'zh-CN': '贡献指南' }
             },
             {
               label: 'Translation Guide',
               link: '/community/translations/',
-              translations: { zh: '翻译指南' }
+              translations: { 'zh-CN': '翻译指南' }
             },
           ],
         },

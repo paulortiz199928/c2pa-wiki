@@ -82,7 +82,7 @@ lastUpdated: 2025-11-24
 
 ## 翻译指南
 
-请参阅我们的 [翻译指南](/zh/community/translations/) 了解详细信息。
+请参阅我们的 [翻译指南](/zh-cn/community/translations/) 了解详细信息。
 
 ## 行为准则
 
