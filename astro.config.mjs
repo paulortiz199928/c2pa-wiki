@@ -63,8 +63,9 @@ export default defineConfig({
             },
             {
               label: 'C2PA Specification v2.2',
-              link: '/specifications/C2PA_Specification.pdf',
-              translations: { zh: 'C2PA 规范 v2.2' }
+              link: 'https://c2pa.wiki/specifications/C2PA_Specification.pdf',
+              translations: { zh: 'C2PA 规范 v2.2' },
+              attrs: { target: '_blank' }
             },
           ],
         },
