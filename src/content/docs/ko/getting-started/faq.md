@@ -332,7 +332,7 @@ c2patool image.jpg
 - Meta(2024년 9월부터 C2PA 운영위원회 회원, 라벨링 롤아웃 중)
 - Twitter/X(탐색 중)
 
-**참조:** [README의 조직 섹션](README.md#조직-및-생태계)
+**참조:** [README의 조직 섹션](/ko/#조직-및-생태계)
 
 ### 20. C2PA는 필수인가요?
 
@@ -501,10 +501,10 @@ C2PA는 정상적으로 작동합니다. 매니페스트는 공개이든 인증 
 ## 시작하기
 
 **C2PA가 처음이신가요?**
-1. 읽기: 메인 README의 [C2PA란 무엇인가?](README.md#c2pa란-무엇인가)
+1. 읽기: 메인 README의 [C2PA란 무엇인가?](/ko/#c2pa란-무엇인가)
 2. 시도: [샘플 검증](https://contentcredentials.org/verify)
 3. 학습: [빠른 시작 가이드](quick-start.md)
-4. 빌드: [도구 및 라이브러리](README.md#도구-및-라이브러리) 확인
+4. 빌드: [도구 및 라이브러리](/ko/#도구-및-라이브러리) 확인
 
 **기여하고 싶으신가요?**
 - 참조: [CONTRIBUTING.md](../../CONTRIBUTING.md)

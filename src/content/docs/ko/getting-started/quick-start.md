@@ -351,7 +351,7 @@ c2patool edited_photo.jpg \
 - [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **도구 탐색:**
-- [도구 및 라이브러리](README.md#도구-및-라이브러리) - 모든 주요 언어용 SDK
+- [도구 및 라이브러리](/ko/#도구-및-라이브러리) - 모든 주요 언어용 SDK
 - [공식 문서](https://opensource.contentauthenticity.org/docs)
 
 **일반적인 질문:**
@@ -438,7 +438,7 @@ c2patool edited_photo.jpg \
 - [C2PA 웹사이트](https://c2pa.org) - 공식 리소스
 
 **기여하기:**
-- [awesome-c2pa](README.md) - 리소스 추가, 문서 번역
+- [awesome-c2pa](/ko/) - 리소스 추가, 문서 번역
 - [C2PA 구현](https://github.com/contentauth) - 코드 기여
 - [Content Authenticity Initiative](https://contentauthenticity.org) - 운동에 참여
 

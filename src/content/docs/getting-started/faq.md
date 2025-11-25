@@ -332,7 +332,7 @@ c2patool image.jpg
 - Meta (C2PA steering committee member since Sept 2024, rolling out labeling)
 - Twitter/X (exploring)
 
-**See:** [Organizations section in README](../../README.md#organizations--ecosystem)
+**See:** [Organizations section in README](/#organizations--ecosystem)
 
 ### 20. Is C2PA mandatory?
 
@@ -501,10 +501,10 @@ C2PA works normally. The manifest travels with the file whether it's public or b
 ## Getting Started
 
 **New to C2PA?**
-1. Read: [What is C2PA?](../../README.md#what-is-c2pa) in main README
+1. Read: [What is C2PA?](/#what-is-c2pa) in main README
 2. Try: [Verify a sample](https://contentcredentials.org/verify)
 3. Learn: [Quick Start Guide](quick-start.md)
-4. Build: Check [Tools & Libraries](../../README.md#tools--libraries)
+4. Build: Check [Tools & Libraries](/#tools--libraries)
 
 **Want to contribute?**
 - See: [CONTRIBUTING.md](../../CONTRIBUTING.md)

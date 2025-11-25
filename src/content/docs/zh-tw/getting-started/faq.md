@@ -332,7 +332,7 @@ c2patool image.jpg
 - Meta(自 2024 年 9 月起成為 C2PA 指導委員會成員,正在推出標記)
 - Twitter/X(探索中)
 
-**請參閱:**[README 中的組織部分](README.md#組織與生態系統)
+**請參閱:**[README 中的組織部分](/zh-tw/#組織與生態系統)
 
 ### 20. C2PA 是強制性的嗎?
 
@@ -501,10 +501,10 @@ C2PA 可以正常運作。無論檔案是公開的還是需要驗證,manifest �
 ## 入門
 
 **C2PA 新手?**
-1. 閱讀:主 README 中的[什麼是 C2PA?](README.md#什麼是-c2pa)
+1. 閱讀:主 README 中的[什麼是 C2PA?](/zh-tw/#什麼是-c2pa)
 2. 試試:[驗證範例](https://contentcredentials.org/verify)
 3. 學習:[快速入門指南](quick-start.md)
-4. 建置:查看[工具與程式庫](README.md#工具與程式庫)
+4. 建置:查看[工具與程式庫](/zh-tw/#工具與程式庫)
 
 **想要貢獻?**
 - 請參閱:[CONTRIBUTING.md](../../CONTRIBUTING.md)

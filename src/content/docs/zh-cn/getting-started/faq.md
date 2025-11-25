@@ -332,7 +332,7 @@ c2patool image.jpg
 - Meta（2024 年 9 月成为 C2PA 指导委员会成员，正在推出标记功能）
 - Twitter/X（探索中）
 
-**参见：** [README 中的组织部分](README.md#组织和生态系统)
+**参见：** [README 中的组织部分](/zh-cn/#组织和生态系统)
 
 ### 20. C2PA 是强制性的吗？
 
@@ -501,10 +501,10 @@ C2PA 正常工作。清单随文件一起移动，无论是公开还是在身份
 ## 入门
 
 **C2PA 新手？**
-1. 阅读：主 README 中的[什么是 C2PA？](README.md#什么是-c2pa)
+1. 阅读：主 README 中的[什么是 C2PA？](/zh-cn/#什么是-c2pa)
 2. 尝试：[验证示例](https://contentcredentials.org/verify)
 3. 学习：[快速入门指南](quick-start.md)
-4. 构建：查看[工具和库](README.md#工具和库)
+4. 构建：查看[工具和库](/zh-cn/#工具和库)
 
 **想要贡献？**
 - 参见：[CONTRIBUTING.md](../../CONTRIBUTING.md)

@@ -351,7 +351,7 @@ c2patool edited_photo.jpg \
 - [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **探索工具：**
-- [工具和库](README.md#工具和库) - 所有主要语言的 SDK
+- [工具和库](/zh-cn/#工具和库) - 所有主要语言的 SDK
 - [官方文档](https://opensource.contentauthenticity.org/docs)
 
 **常见问题：**
@@ -438,7 +438,7 @@ c2patool edited_photo.jpg \
 - [C2PA 网站](https://c2pa.org) - 官方资源
 
 **贡献：**
-- [awesome-c2pa](README.md) - 添加资源、翻译文档
+- [awesome-c2pa](/zh-cn/) - 添加资源、翻译文档
 - [C2PA 实现](https://github.com/contentauth) - 贡献代码
 - [内容真实性倡议](https://contentauthenticity.org) - 加入运动
 

@@ -345,13 +345,13 @@ The new manifest will reference `original_photo.jpg` as an ingredient, preservin
 ### Learn More
 
 **Understand the Specification:**
-- [English](specifications/C2PA_Specification.pdf)
-- [中文](specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Explore Tools:**
-- [Tools & Libraries](../../README.md#tools--libraries) - SDKs for all major languages
+- [Tools & Libraries](/#tools--libraries) - SDKs for all major languages
 - [Official Documentation](https://opensource.contentauthenticity.org/docs)
 
 **Common Questions:**
@@ -438,7 +438,7 @@ Your App Workflow:
 - [C2PA Website](https://c2pa.org) - Official resources
 
 **Contribute:**
-- [awesome-c2pa](../../README.md) - Add resources, translate docs
+- [awesome-c2pa](/) - Add resources, translate docs
 - [C2PA Implementations](https://github.com/contentauth) - Contribute code
 - [Content Authenticity Initiative](https://contentauthenticity.org) - Join the movement
 

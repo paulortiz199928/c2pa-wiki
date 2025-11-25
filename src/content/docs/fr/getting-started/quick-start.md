@@ -351,7 +351,7 @@ Le nouveau manifest référencera `original_photo.jpg` comme ingrédient, prése
 - [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Explorer les outils :**
-- [Outils et bibliothèques](README.md#outils-et-bibliothèques) - SDK pour tous les principaux langages
+- [Outils et bibliothèques](/fr/#outils-et-bibliothèques) - SDK pour tous les principaux langages
 - [Documentation officielle](https://opensource.contentauthenticity.org/docs)
 
 **Questions courantes :**
@@ -438,7 +438,7 @@ Workflow de votre application :
 - [Site web C2PA](https://c2pa.org) - Ressources officielles
 
 **Contribuer :**
-- [awesome-c2pa](README.md) - Ajouter des ressources, traduire la documentation
+- [awesome-c2pa](/fr/) - Ajouter des ressources, traduire la documentation
 - [Implémentations C2PA](https://github.com/contentauth) - Contribuer au code
 - [Content Authenticity Initiative](https://contentauthenticity.org) - Rejoindre le mouvement
 

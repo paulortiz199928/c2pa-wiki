@@ -351,7 +351,7 @@ Das neue Manifest verweist auf `original_photo.jpg` als Zutat und bewahrt so die
 - [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Tools erkunden:**
-- [Tools & Bibliotheken](README.md#tools--bibliotheken) - SDKs für alle gängigen Sprachen
+- [Tools & Bibliotheken](/de/#tools--bibliotheken) - SDKs für alle gängigen Sprachen
 - [Offizielle Dokumentation](https://opensource.contentauthenticity.org/docs)
 
 **Häufige Fragen:**
@@ -438,7 +438,7 @@ Ihr App-Workflow:
 - [C2PA Website](https://c2pa.org) - Offizielle Ressourcen
 
 **Beitragen:**
-- [awesome-c2pa](README.md) - Ressourcen hinzufügen, Dokumentation übersetzen
+- [awesome-c2pa](/de/) - Ressourcen hinzufügen, Dokumentation übersetzen
 - [C2PA Implementierungen](https://github.com/contentauth) - Code beitragen
 - [Content Authenticity Initiative](https://contentauthenticity.org) - Der Bewegung beitreten
 

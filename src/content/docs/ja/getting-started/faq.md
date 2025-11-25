@@ -332,7 +332,7 @@ c2patool image.jpg
 - Meta（2024年9月からC2PA運営委員会メンバー、ラベル付けを展開中）
 - Twitter/X（検討中）
 
-**参照:** [READMEの組織セクション](README.md#組織とエコシステム)
+**参照:** [READMEの組織セクション](/ja/#組織とエコシステム)
 
 ### 20. C2PAは必須ですか？
 
@@ -501,10 +501,10 @@ C2PAは正常に機能します。マニフェストはファイルと一緒に�
 ## はじめに
 
 **C2PAが初めてですか？**
-1. 読む: メインREADMEの[C2PAとは？](README.md#c2paとは)
+1. 読む: メインREADMEの[C2PAとは？](/ja/#c2paとは)
 2. 試す: [サンプルを検証](https://contentcredentials.org/verify)
 3. 学ぶ: [クイックスタートガイド](quick-start.md)
-4. 構築: [ツールとライブラリ](README.md#ツールとライブラリ)を確認
+4. 構築: [ツールとライブラリ](/ja/#ツールとライブラリ)を確認
 
 **貢献したいですか？**
 - 参照: [CONTRIBUTING.md](../../CONTRIBUTING.md)

@@ -351,7 +351,7 @@ c2patool edited_photo.jpg \
 - [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Изучите инструменты:**
-- [Инструменты и библиотеки](README.md#инструменты-и-библиотеки) - SDK для всех основных языков
+- [Инструменты и библиотеки](/ru/#инструменты-и-библиотеки) - SDK для всех основных языков
 - [Официальная документация](https://opensource.contentauthenticity.org/docs)
 
 **Распространенные вопросы:**
@@ -438,7 +438,7 @@ c2patool edited_photo.jpg \
 - [Сайт C2PA](https://c2pa.org) - Официальные ресурсы
 
 **Внесите вклад:**
-- [awesome-c2pa](README.md) - Добавляйте ресурсы, переводите документацию
+- [awesome-c2pa](/ru/) - Добавляйте ресурсы, переводите документацию
 - [Реализации C2PA](https://github.com/contentauth) - Вносите код
 - [Content Authenticity Initiative](https://contentauthenticity.org) - Присоединяйтесь к движению
 
