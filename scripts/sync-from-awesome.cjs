@@ -43,67 +43,49 @@ log(`🚀 Starting content sync from awesome-c2pa...\n`, 'blue');
 log(`Source: ${path.resolve(AWESOME_PATH)}`, 'blue');
 log(`Target: ${WIKI_PATH}\n`, 'blue');
 
-// 文件映射配置
+// 文件映射配置 - 匹配 awesome-c2pa 的实际文件结构
 const FILE_MAPPINGS = [
-  // 英文文档
+  // 英文首页 (注意: 需要手动添加 frontmatter，这里只做简单复制)
   {
-    source: 'docs/getting-started/quick-start.md',
+    source: 'README.md',
+    target: 'src/content/docs/index.md',
+    note: '⚠️  需要手动添加 splash template frontmatter'
+  },
+  // 中文首页
+  {
+    source: 'README_zh-Hans.md',
+    target: 'src/content/docs/zh-cn/index.md',
+    note: '⚠️  需要手动添加 splash template frontmatter'
+  },
+  // 英文快速入门指南
+  {
+    source: 'docs/Quick_Start_Guide.md',
     target: 'src/content/docs/getting-started/quick-start.md'
   },
+  // 英文常见问题
   {
-    source: 'docs/getting-started/faq.md',
+    source: 'docs/FAQ.md',
     target: 'src/content/docs/getting-started/faq.md'
   },
+  // 中文快速入门指南
   {
-    source: 'docs/specifications/index.md',
-    target: 'src/content/docs/specifications/index.md'
-  },
-  {
-    source: 'docs/tools/official.md',
-    target: 'src/content/docs/tools/official.md'
-  },
-  {
-    source: 'docs/community/contributing.md',
-    target: 'src/content/docs/community/contributing.md'
-  },
-  {
-    source: 'docs/community/translations.md',
-    target: 'src/content/docs/community/translations.md'
-  },
-  // 中文文档
-  {
-    source: 'docs/zh-cn/getting-started/quick-start.md',
+    source: 'docs/Quick_Start_Guide_zh-Hans.md',
     target: 'src/content/docs/zh-cn/getting-started/quick-start.md'
   },
+  // 中文常见问题
   {
-    source: 'docs/zh-cn/getting-started/faq.md',
+    source: 'docs/FAQ_zh-Hans.md',
     target: 'src/content/docs/zh-cn/getting-started/faq.md'
-  },
-  {
-    source: 'docs/zh-cn/specifications/index.md',
-    target: 'src/content/docs/zh-cn/specifications/index.md'
-  },
-  {
-    source: 'docs/zh-cn/tools/official.md',
-    target: 'src/content/docs/zh-cn/tools/official.md'
-  },
-  {
-    source: 'docs/zh-cn/community/contributing.md',
-    target: 'src/content/docs/zh-cn/community/contributing.md'
-  },
-  {
-    source: 'docs/zh-cn/community/translations.md',
-    target: 'src/content/docs/zh-cn/community/translations.md'
   },
 ];
 
-// PDF 规范文件
+// PDF 规范文件 - awesome-c2pa 中的实际路径
 const PDF_FILES = [
-  'specifications/C2PA_Specification.pdf',
-  'specifications/C2PA_Specification_zh-Hans.pdf',
-  'specifications/C2PA_Specification_ja.pdf',
-  'specifications/C2PA_Specification_de.pdf',
-  'specifications/C2PA_Specification_fr.pdf',
+  'docs/specifications/C2PA_Specification.pdf',
+  'docs/specifications/C2PA_Specification_zh-Hans.pdf',
+  'docs/specifications/C2PA_Specification_ja.pdf',
+  'docs/specifications/C2PA_Specification_de.pdf',
+  'docs/specifications/C2PA_Specification_fr.pdf',
 ];
 
 function ensureDir(filePath) {
@@ -127,6 +109,9 @@ function syncFile(mapping) {
     ensureDir(targetPath);
     fs.writeFileSync(targetPath, content);
     log(`✅ Synced: ${mapping.source}`, 'green');
+    if (mapping.note) {
+      log(`   ${mapping.note}`, 'yellow');
+    }
     return true;
   } catch (error) {
     log(`❌ Error syncing ${mapping.source}: ${error.message}`, 'red');
@@ -140,7 +125,8 @@ function syncPdfFiles() {
   let syncedCount = 0;
   PDF_FILES.forEach(pdfPath => {
     const sourcePath = path.join(AWESOME_PATH, pdfPath);
-    const targetPath = path.join(WIKI_PATH, 'public', pdfPath);
+    const fileName = path.basename(pdfPath);
+    const targetPath = path.join(WIKI_PATH, 'public/specifications', fileName);
 
     if (!fs.existsSync(sourcePath)) {
       log(`⚠️  PDF not found: ${pdfPath}`, 'yellow');
@@ -150,7 +136,7 @@ function syncPdfFiles() {
     try {
       ensureDir(targetPath);
       fs.copyFileSync(sourcePath, targetPath);
-      log(`✅ Synced PDF: ${pdfPath}`, 'green');
+      log(`✅ Synced PDF: ${fileName}`, 'green');
       syncedCount++;
     } catch (error) {
       log(`❌ Error syncing PDF ${pdfPath}: ${error.message}`, 'red');
@@ -189,9 +175,9 @@ FILE_MAPPINGS.forEach(mapping => {
 const pdfCount = syncPdfFiles();
 
 // 显示统计信息
-log(`\n${'='.repeat(60)}`, 'blue');
+log(`\n${'='.repeat(70)}`, 'blue');
 log(`📊 Sync Summary`, 'blue');
-log(`${'='.repeat(60)}`, 'blue');
+log(`${'='.repeat(70)}`, 'blue');
 
 const gitInfo = getGitInfo();
 if (gitInfo) {
@@ -208,13 +194,22 @@ if (failedCount > 0) {
   log(`   ❌ Failed: ${failedCount}`, 'red');
 }
 
+log(`\n📦 Synced Files:`, 'blue');
+log(`   • README (English & Chinese)`);
+log(`   • Quick Start Guide (English & Chinese)`);
+log(`   • FAQ (English & Chinese)`);
+log(`   • PDF Specifications (5 languages)`);
+
 log(`\n✨ Sync completed!\n`, 'green');
 
 // 提示下一步操作
 log(`📌 Next steps:`, 'yellow');
 log(`   1. Review the changes: git status`);
-log(`   2. Test the build: npm run build`);
-log(`   3. Commit the changes: git add . && git commit -m "sync: update content from awesome-c2pa"`);
-log(`   4. Push to GitHub: git push\n`);
+log(`   2. Check frontmatter for index.md files (splash template)`);
+log(`   3. Test the build: npm run build`);
+log(`   4. Commit: git add . && git commit -m "sync: update content from awesome-c2pa"`);
+log(`   5. Push: git push\n`);
+
+log(`⚠️  Note: README files need manual frontmatter adjustment for splash template`, 'yellow');
 
 process.exit(failedCount > 0 ? 1 : 0);
