@@ -18,11 +18,11 @@ C2PA 规范的当前版本是 **v2.2**，于 2025 年 5 月发布。
 
 | 语言 | 下载 | 状态 |
 |----------|----------|--------|
-| 🇬🇧 English | [C2PA Specification 2.2](/c2pa-wiki/specifications/C2PA_Specification.pdf) | 官方版本 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/c2pa-wiki/specifications/C2PA_Specification_zh-Hans.pdf) | Beta（AI 翻译） |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/c2pa-wiki/specifications/C2PA_Specification_ja.pdf) | Beta（AI 翻译） |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/c2pa-wiki/specifications/C2PA_Specification_de.pdf) | Beta（AI 翻译） |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/c2pa-wiki/specifications/C2PA_Specification_fr.pdf) | Beta（AI 翻译） |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | 官方版本 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | Beta（AI 翻译） |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | Beta（AI 翻译） |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | Beta（AI 翻译） |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | Beta（AI 翻译） |
 
 > **翻译声明**：非英语翻译由 AI 辅助（DeepL）并经过社区审核。英文版本仍是权威参考。
 
@@ -71,12 +71,12 @@ C2PA 规范涵盖：
 
 ## 获取帮助
 
-- [技术问答](/c2pa-wiki/getting-started/faq/)
+- [技术问答](/getting-started/faq/)
 - [社区讨论](https://github.com/paulortiz199928/awesome-c2pa/discussions)
 - [报告翻译问题](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)
 
 ## 下一步
 
-- 阅读 [快速入门指南](/c2pa-wiki/getting-started/quick-start/)
-- 探索 [工具和库](/c2pa-wiki/tools/official/)
-- 加入 [社区](/c2pa-wiki/community/contributing/)
+- 阅读 [快速入门指南](/getting-started/quick-start/)
+- 探索 [工具和库](/tools/official/)
+- 加入 [社区](/community/contributing/)

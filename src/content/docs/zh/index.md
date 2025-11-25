@@ -31,16 +31,16 @@ hero:
 
 准备好了吗？查看我们的资源：
 
-- [快速入门指南](/c2pa-wiki/getting-started/quick-start/) - 立即上手
-- [常见问题](/c2pa-wiki/getting-started/faq/) - 常见问题解答
-- [技术规范](/c2pa-wiki/specifications/) - 技术深入探讨
+- [快速入门指南](/getting-started/quick-start/) - 立即上手
+- [常见问题](/getting-started/faq/) - 常见问题解答
+- [技术规范](/specifications/) - 技术深入探讨
 
 ### 多语言规范
 
 我们提供多种语言的 C2PA 规范：
 
-- 🇬🇧 English - [View Specification](/c2pa-wiki/specifications/C2PA_Specification.pdf)
-- 🇨🇳 简体中文 - [查看规范](/c2pa-wiki/specifications/C2PA_Specification_zh-Hans.pdf)
-- 🇯🇵 日本語 - [仕様を見る](/c2pa-wiki/specifications/C2PA_Specification_ja.pdf)
-- 🇩🇪 Deutsch - [Spezifikation anzeigen](/c2pa-wiki/specifications/C2PA_Specification_de.pdf)
-- 🇫🇷 Français - [Voir la spécification](/c2pa-wiki/specifications/C2PA_Specification_fr.pdf)
+- 🇬🇧 English - [View Specification](/specifications/C2PA_Specification.pdf)
+- 🇨🇳 简体中文 - [查看规范](/specifications/C2PA_Specification_zh-Hans.pdf)
+- 🇯🇵 日本語 - [仕様を見る](/specifications/C2PA_Specification_ja.pdf)
+- 🇩🇪 Deutsch - [Spezifikation anzeigen](/specifications/C2PA_Specification_de.pdf)
+- 🇫🇷 Français - [Voir la spécification](/specifications/C2PA_Specification_fr.pdf)

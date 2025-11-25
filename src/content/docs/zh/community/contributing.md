@@ -20,7 +20,7 @@ lastUpdated: 2025-11-24
 ### 2. 报告问题
 
 发现问题？请告诉我们：
-- [报告文档问题](https://github.com/paulortiz199928/c2pa-wiki/issues)
+- [报告文档问题](https://github.com/paulortiz199928/issues)
 - [报告内容问题](https://github.com/paulortiz199928/awesome-c2pa/issues)
 - [报告翻译错误](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)
 
@@ -82,7 +82,7 @@ lastUpdated: 2025-11-24
 
 ## 翻译指南
 
-请参阅我们的 [翻译指南](/c2pa-wiki/community/translations/) 了解详细信息。
+请参阅我们的 [翻译指南](/community/translations/) 了解详细信息。
 
 ## 行为准则
 

@@ -100,10 +100,10 @@ const 清单 = await c2pa.读取('image.jpg');
 Update links to localized versions:
 ```markdown
 <!-- English -->
-[FAQ](/c2pa-wiki/en/getting-started/faq/)
+[FAQ](/en/getting-started/faq/)
 
 <!-- Chinese -->
-[常见问题](/c2pa-wiki/zh/getting-started/faq/)
+[常见问题](/zh/getting-started/faq/)
 ```
 
 ### 4. Quality Standards

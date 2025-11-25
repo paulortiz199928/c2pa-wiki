@@ -77,9 +77,9 @@ await c2pa.sign('input.jpg', 'output.jpg', manifest);
 
 ## Next Steps
 
-- Read the [FAQ](/c2pa-wiki/getting-started/faq/) for common questions
-- Explore the [Specifications](/c2pa-wiki/specifications/)
-- Check out [Tools & Libraries](/c2pa-wiki/tools/official/)
+- Read the [FAQ](/getting-started/faq/) for common questions
+- Explore the [Specifications](/specifications/)
+- Check out [Tools & Libraries](/tools/official/)
 
 ## Resources
 

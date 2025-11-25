@@ -18,11 +18,11 @@ Download the specification in your preferred language:
 
 | Language | Download | Status |
 |----------|----------|--------|
-| 🇬🇧 English | [C2PA Specification 2.2](/c2pa-wiki/specifications/C2PA_Specification.pdf) | Official |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/c2pa-wiki/specifications/C2PA_Specification_zh-Hans.pdf) | Beta (AI-translated) |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/c2pa-wiki/specifications/C2PA_Specification_ja.pdf) | Beta (AI-translated) |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/c2pa-wiki/specifications/C2PA_Specification_de.pdf) | Beta (AI-translated) |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/c2pa-wiki/specifications/C2PA_Specification_fr.pdf) | Beta (AI-translated) |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | Official |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | Beta (AI-translated) |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | Beta (AI-translated) |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | Beta (AI-translated) |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | Beta (AI-translated) |
 
 > **Translation Notice**: Non-English translations are AI-assisted (DeepL) with community review. The English version remains the authoritative reference.
 
@@ -71,12 +71,12 @@ The C2PA specification covers:
 
 ## Getting Help
 
-- [Technical Q&A](/c2pa-wiki/getting-started/faq/)
+- [Technical Q&A](/getting-started/faq/)
 - [Community Discussions](https://github.com/paulortiz199928/awesome-c2pa/discussions)
 - [Report Translation Issues](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)
 
 ## Next Steps
 
-- Read the [Quick Start Guide](/c2pa-wiki/getting-started/quick-start/)
-- Explore [Tools & Libraries](/c2pa-wiki/tools/official/)
-- Join the [Community](/c2pa-wiki/community/contributing/)
+- Read the [Quick Start Guide](/getting-started/quick-start/)
+- Explore [Tools & Libraries](/tools/official/)
+- Join the [Community](/community/contributing/)
