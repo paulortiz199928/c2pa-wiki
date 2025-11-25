@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### Узнайте больше
 
 **Понимание спецификации:**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **Изучите инструменты:**
 - [Инструменты и библиотеки](README.md#инструменты-и-библиотеки) - SDK для всех основных языков
@@ -356,7 +356,7 @@ c2patool edited_photo.jpg \
 
 **Распространенные вопросы:**
 - [FAQ](faq.md) - Более 25 часто задаваемых вопросов
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions)
 
 ### Учебные пособия и примеры
 
@@ -433,8 +433,8 @@ c2patool edited_photo.jpg \
 ### Присоединяйтесь к сообществу
 
 **Получите помощь:**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - Отчеты об ошибках
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions) - Вопросы
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - Отчеты об ошибках
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions) - Вопросы
 - [Сайт C2PA](https://c2pa.org) - Официальные ресурсы
 
 **Внесите вклад:**

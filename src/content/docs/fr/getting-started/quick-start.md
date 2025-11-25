@@ -345,10 +345,10 @@ Le nouveau manifest référencera `original_photo.jpg` comme ingrédient, prése
 ### En savoir plus
 
 **Comprendre la spécification :**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **Explorer les outils :**
 - [Outils et bibliothèques](README.md#outils-et-bibliothèques) - SDK pour tous les principaux langages
@@ -356,7 +356,7 @@ Le nouveau manifest référencera `original_photo.jpg` comme ingrédient, prése
 
 **Questions courantes :**
 - [FAQ](faq.md) - Plus de 25 questions fréquemment posées
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions)
 
 ### Tutoriels et exemples
 
@@ -433,8 +433,8 @@ Workflow de votre application :
 ### Rejoindre la communauté
 
 **Obtenir de l'aide :**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - Rapports de bogues
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions) - Questions
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - Rapports de bogues
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions) - Questions
 - [Site web C2PA](https://c2pa.org) - Ressources officielles
 
 **Contribuer :**

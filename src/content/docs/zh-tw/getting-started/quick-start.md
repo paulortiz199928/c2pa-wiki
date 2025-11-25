@@ -345,11 +345,11 @@ c2patool edited_photo.jpg \
 ### 進一步學習
 
 **理解規範:**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [简体中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [繁體中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [简体中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [繁體中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **探索工具:**
 - [工具與程式庫](README.md#工具與程式庫) - 所有主要語言的 SDK
@@ -357,7 +357,7 @@ c2patool edited_photo.jpg \
 
 **常見問題:**
 - [FAQ](faq.md) - 25+ 常見問題
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions)
 
 ### 教學課程與範例
 
@@ -434,8 +434,8 @@ c2patool edited_photo.jpg \
 ### 加入社群
 
 **取得協助:**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - 錯誤回報
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions) - 問題
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - 錯誤回報
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions) - 問題
 - [C2PA 網站](https://c2pa.org) - 官方資源
 
 **貢獻:**

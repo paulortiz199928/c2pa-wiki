@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### さらに学ぶ
 
 **仕様を理解する:**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **ツールを探索:**
 - [ツールとライブラリ](README.md#ツールとライブラリ) - すべての主要言語向けSDK
@@ -356,7 +356,7 @@ c2patool edited_photo.jpg \
 
 **よくある質問:**
 - [FAQ](faq.md) - 25以上のよくある質問
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions)
 
 ### チュートリアルと例
 
@@ -433,8 +433,8 @@ c2patool edited_photo.jpg \
 ### コミュニティに参加
 
 **ヘルプを得る:**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - バグ報告
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions) - 質問
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - バグ報告
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions) - 質問
 - [C2PAウェブサイト](https://c2pa.org) - 公式リソース
 
 **貢献:**

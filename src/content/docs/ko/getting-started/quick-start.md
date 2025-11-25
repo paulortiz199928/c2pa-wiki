@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### 더 알아보기
 
 **규격 이해:**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **도구 탐색:**
 - [도구 및 라이브러리](README.md#도구-및-라이브러리) - 모든 주요 언어용 SDK
@@ -356,7 +356,7 @@ c2patool edited_photo.jpg \
 
 **일반적인 질문:**
 - [FAQ](faq.md) - 25개 이상의 자주 묻는 질문
-- [GitHub 토론](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub 토론](https://github.com/c2pa-org/specifications/discussions)
 
 ### 튜토리얼 및 예제
 
@@ -433,8 +433,8 @@ c2patool edited_photo.jpg \
 ### 커뮤니티 참여
 
 **도움 받기:**
-- [GitHub 이슈](https://github.com/c2pa-org/../../docs/specifications/issues) - 버그 보고
-- [GitHub 토론](https://github.com/c2pa-org/../../docs/specifications/discussions) - 질문
+- [GitHub 이슈](https://github.com/c2pa-org/specifications/issues) - 버그 보고
+- [GitHub 토론](https://github.com/c2pa-org/specifications/discussions) - 질문
 - [C2PA 웹사이트](https://c2pa.org) - 공식 리소스
 
 **기여하기:**

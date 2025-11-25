@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### 了解更多
 
 **理解规范：**
-- [英语](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [英语](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **探索工具：**
 - [工具和库](README.md#工具和库) - 所有主要语言的 SDK
@@ -356,7 +356,7 @@ c2patool edited_photo.jpg \
 
 **常见问题：**
 - [FAQ](faq.md) - 25+ 个常见问题
-- [GitHub 讨论](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub 讨论](https://github.com/c2pa-org/specifications/discussions)
 
 ### 教程和示例
 
@@ -433,8 +433,8 @@ c2patool edited_photo.jpg \
 ### 加入社区
 
 **获取帮助：**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - 错误报告
-- [GitHub 讨论](https://github.com/c2pa-org/../../docs/specifications/discussions) - 问题
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - 错误报告
+- [GitHub 讨论](https://github.com/c2pa-org/specifications/discussions) - 问题
 - [C2PA 网站](https://c2pa.org) - 官方资源
 
 **贡献：**

@@ -345,10 +345,10 @@ Das neue Manifest verweist auf `original_photo.jpg` als Zutat und bewahrt so die
 ### Mehr erfahren
 
 **Die Spezifikation verstehen:**
-- [English](../../docs/specifications/C2PA_Specification.pdf)
-- [中文](../../docs/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](../../docs/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](../../docs/specifications/C2PA_Specification_de.pdf)
+- [English](/specifications/C2PA_Specification.pdf)
+- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](/specifications/C2PA_Specification_de.pdf)
 
 **Tools erkunden:**
 - [Tools & Bibliotheken](README.md#tools--bibliotheken) - SDKs für alle gängigen Sprachen
@@ -356,7 +356,7 @@ Das neue Manifest verweist auf `original_photo.jpg` als Zutat und bewahrt so die
 
 **Häufige Fragen:**
 - [FAQ](faq.md) - Über 25 häufig gestellte Fragen
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions)
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions)
 
 ### Tutorials & Beispiele
 
@@ -433,8 +433,8 @@ Ihr App-Workflow:
 ### Der Community beitreten
 
 **Hilfe erhalten:**
-- [GitHub Issues](https://github.com/c2pa-org/../../docs/specifications/issues) - Fehlerberichte
-- [GitHub Discussions](https://github.com/c2pa-org/../../docs/specifications/discussions) - Fragen
+- [GitHub Issues](https://github.com/c2pa-org/specifications/issues) - Fehlerberichte
+- [GitHub Discussions](https://github.com/c2pa-org/specifications/discussions) - Fragen
 - [C2PA Website](https://c2pa.org) - Offizielle Ressourcen
 
 **Beitragen:**
