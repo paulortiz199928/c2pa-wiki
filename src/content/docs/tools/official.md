@@ -112,6 +112,6 @@ c2pa verify image.jpg
 
 ## Next Steps
 
-- Try the [Quick Start Guide](/c2pa-wiki/getting-started/quick-start/)
-- Read the [Specifications](/c2pa-wiki/specifications/)
-- Join the [Community](/c2pa-wiki/community/contributing/)
+- Try the [Quick Start Guide](/getting-started/quick-start/)
+- Read the [Specifications](/specifications/)
+- Join the [Community](/community/contributing/)

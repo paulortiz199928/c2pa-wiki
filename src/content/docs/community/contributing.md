@@ -20,7 +20,7 @@ Thank you for your interest in contributing to the C2PA Wiki! This guide will he
 ### 2. Report Issues
 
 Found a problem? Let us know:
-- [Report documentation issues](https://github.com/paulortiz199928/c2pa-wiki/issues)
+- [Report documentation issues](https://github.com/paulortiz199928/issues)
 - [Report content issues](https://github.com/paulortiz199928/awesome-c2pa/issues)
 - [Report translation errors](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)
 

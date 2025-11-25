@@ -112,6 +112,6 @@ c2pa verify image.jpg
 
 ## 下一步
 
-- 尝试 [快速入门指南](/c2pa-wiki/getting-started/quick-start/)
-- 阅读 [技术规范](/c2pa-wiki/specifications/)
-- 加入 [社区](/c2pa-wiki/community/contributing/)
+- 尝试 [快速入门指南](/getting-started/quick-start/)
+- 阅读 [技术规范](/specifications/)
+- 加入 [社区](/community/contributing/)

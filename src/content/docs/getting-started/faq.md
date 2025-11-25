@@ -91,7 +91,7 @@ The **standard and tools are free**. However:
 
 ### How do I get started?
 
-1. Read our [Quick Start Guide](/c2pa-wiki/getting-started/quick-start/)
+1. Read our [Quick Start Guide](/getting-started/quick-start/)
 2. Try the [online verifier](https://contentcredentials.org/verify)
 3. Install the [c2pa-node](https://github.com/contentauth/c2pa-node-v2) SDK
 4. Get a signing certificate
@@ -106,6 +106,6 @@ The **standard and tools are free**. However:
 
 Can't find your answer?
 
-- Check the [full documentation](/c2pa-wiki/specifications/)
+- Check the [full documentation](/specifications/)
 - Ask in [GitHub Discussions](https://github.com/paulortiz199928/awesome-c2pa/discussions)
 - Read the [official specifications](https://c2pa.org/specifications/)

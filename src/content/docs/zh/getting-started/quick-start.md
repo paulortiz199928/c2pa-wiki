@@ -77,9 +77,9 @@ await c2pa.sign('input.jpg', 'output.jpg', manifest);
 
 ## 下一步
 
-- 阅读 [常见问题](/c2pa-wiki/getting-started/faq/) 了解常见问题
-- 探索 [技术规范](/c2pa-wiki/specifications/)
-- 查看 [工具和库](/c2pa-wiki/tools/official/)
+- 阅读 [常见问题](/getting-started/faq/) 了解常见问题
+- 探索 [技术规范](/specifications/)
+- 查看 [工具和库](/tools/official/)
 
 ## 资源
 
