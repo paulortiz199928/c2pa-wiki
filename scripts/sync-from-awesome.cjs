@@ -13,6 +13,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const { generateSchemaData } = require('./generate-schema-data.cjs');
 
 // 获取命令行参数
 const AWESOME_PATH = process.argv[2] || '../awesome-c2pa';
@@ -218,8 +219,27 @@ log(`   • English, 简体中文, 繁體中文, 日本語, 한국어, Deutsch, 
 
 log(`\n✨ Sync completed!\n`, 'green');
 
+// Generate Schema.org structured data from synced content
+log(`\n${'='.repeat(70)}`, 'blue');
+log(`🏗️  Generating Schema.org Data`, 'blue');
+log(`${'='.repeat(70)}\n`, 'blue');
+
+try {
+  // Temporarily change process.cwd for schema generation
+  const originalCwd = process.cwd();
+  process.chdir(WIKI_PATH);
+
+  generateSchemaData();
+
+  process.chdir(originalCwd);
+  log(`\n✅ Schema.org data generation completed!\n`, 'green');
+} catch (error) {
+  log(`\n❌ Error generating Schema.org data: ${error.message}`, 'red');
+  log(`   You can manually run: node scripts/generate-schema-data.cjs`, 'yellow');
+}
+
 // 提示下一步操作
-log(`📌 Next steps:`, 'yellow');
+log(`\n📌 Next steps:`, 'yellow');
 log(`   1. Review the changes: git status`);
 log(`   2. Check frontmatter for index.md files (splash template)`);
 log(`   3. Test the build: npm run build`);

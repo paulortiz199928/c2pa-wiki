@@ -1,5 +1,9 @@
 /**
- * Deutsch HowTo Daten - Schnellstartanleitung
+ * HowTo data for Schema.org HowTo structured data
+ * Language: Deutsch
+ *
+ * Auto-generated from awesome-c2pa repository
+ * Source: https://github.com/paulortiz199928/awesome-c2pa
  */
 
 export interface HowToStep {
@@ -11,34 +15,31 @@ export interface HowToStep {
 export interface HowToData {
   name: string;
   description: string;
-  totalTime?: string;
+  totalTime: string;
   steps: HowToStep[];
 }
 
 export const quickStartHowTo: HowToData = {
-  name: "So verifizieren Sie C2PA-Inhalte",
-  description: "Lernen Sie, wie Sie mit C2PA-Tools die Authentizität und Herkunft digitaler Inhalte verifizieren. Diese Anleitung behandelt drei Methoden: Online-Tools, Browser-Erweiterungen und Befehlszeilenverifizierung.",
-  totalTime: "PT5M",
+  name: 'So überprüfen Sie C2PA-Inhalte',
+  description: 'Erfahren Sie in nur 5 Minuten, wie Sie die Authentizität und Herkunft digitaler Inhalte mit C2PA-Tools überprüfen.',
+  totalTime: 'PT5M',
   steps: [
-    {
-      name: "Zugriff auf das Content Credentials Verifizierungstool",
-      text: "Öffnen Sie einen Webbrowser und besuchen Sie https://contentcredentials.org/verify. Dies ist Adobes offizielles kostenloses Tool zur Verifizierung von C2PA-Inhalten, ohne Installation oder Kontoerstellung erforderlich.",
-      url: "https://contentcredentials.org/verify"
+    {,
+      name: 'Visit Content Credentials Verify',,
+      text: 'Open your web browser and navigate to https://contentcredentials.org/verify to access the official C2PA verification tool.',
+      url: 'https://contentcredentials.org/verify',
     },
-    {
-      name: "Laden Sie Ihre Inhaltsdatei hoch",
-      text: "Ziehen Sie ein Bild, Video oder Dokument per Drag-and-Drop auf die Verifizierungsseite. Unterstützte Formate sind JPEG, PNG, MP4, MOV, PDF und mehr. Die Datei wird lokal im Browser analysiert, um die Privatsphäre zu schützen.",
-      url: "https://c2pa.wiki/de/getting-started/quick-start/"
+    {,
+      name: 'Upload your media file',,
+      text: 'Drag and drop your image, video, or document onto the verification page, or click to browse and select the file from your device.',
     },
-    {
-      name: "Überprüfen Sie die Herkunftsinformationen",
-      text: "Überprüfen Sie die angezeigten Herkunftsdaten, einschließlich Erstelleridentität, Bearbeitungshistorie, Zeitstempel, verwendeter Tools und Signaturverifizierungsstatus. Ein grünes Häkchen zeigt an, dass der Inhalt seit der Signierung nicht manipuliert wurde.",
-      url: "https://c2pa.wiki/de/getting-started/quick-start/"
+    {,
+      name: 'Review provenance information',,
+      text: 'Examine the displayed information including creator identity, creation date, editing history, and signature validation status.',
     },
-    {
-      name: "Überprüfen Sie den Signaturstatus",
-      text: "Überprüfen Sie, dass die Signatur als 'Gültig' angezeigt wird. Wenn die Signatur beschädigt ist oder Warnungen anzeigt, wurde der Inhalt möglicherweise nach der Signierung geändert, oder es gibt ein Problem mit dem Signaturzertifikat. Eine gültige Signatur bestätigt die Integrität des Inhalts.",
-      url: "https://c2pa.wiki/de/getting-started/faq/"
+    {,
+      name: 'Verify signature status',,
+      text: 'Check that the signature shows as Valid with a green checkmark, confirming the content has not been tampered with since signing.',
     }
   ]
 };

@@ -1,5 +1,9 @@
 /**
- * Русский HowTo Данные - Руководство по быстрому старту
+ * HowTo data for Schema.org HowTo structured data
+ * Language: Русский
+ *
+ * Auto-generated from awesome-c2pa repository
+ * Source: https://github.com/paulortiz199928/awesome-c2pa
  */
 
 export interface HowToStep {
@@ -11,34 +15,31 @@ export interface HowToStep {
 export interface HowToData {
   name: string;
   description: string;
-  totalTime?: string;
+  totalTime: string;
   steps: HowToStep[];
 }
 
 export const quickStartHowTo: HowToData = {
-  name: "Как проверить контент C2PA",
-  description: "Узнайте, как проверить подлинность и происхождение цифрового контента с помощью инструментов C2PA. В этом руководстве рассматриваются три метода: онлайн-инструменты, расширения для браузера и проверка через командную строку.",
-  totalTime: "PT5M",
+  name: 'Как проверить контент C2PA',
+  description: 'Узнайте, как проверить подлинность и происхождение цифрового контента с помощью инструментов C2PA всего за 5 минут.',
+  totalTime: 'PT5M',
   steps: [
-    {
-      name: "Доступ к инструменту проверки Content Credentials",
-      text: "Откройте веб-браузер и перейдите на https://contentcredentials.org/verify. Это официальный бесплатный инструмент Adobe для проверки контента C2PA, не требующий установки или создания учетной записи.",
-      url: "https://contentcredentials.org/verify"
+    {,
+      name: 'Visit Content Credentials Verify',,
+      text: 'Open your web browser and navigate to https://contentcredentials.org/verify to access the official C2PA verification tool.',
+      url: 'https://contentcredentials.org/verify',
     },
-    {
-      name: "Загрузите файл контента",
-      text: "Перетащите любое изображение, видео или документ на страницу проверки. Поддерживаемые форматы включают JPEG, PNG, MP4, MOV, PDF и другие. Файл анализируется локально в браузере для защиты конфиденциальности.",
-      url: "https://c2pa.wiki/ru/getting-started/quick-start/"
+    {,
+      name: 'Upload your media file',,
+      text: 'Drag and drop your image, video, or document onto the verification page, or click to browse and select the file from your device.',
     },
-    {
-      name: "Проверьте информацию о происхождении",
-      text: "Проверьте отображаемые данные о происхождении, включая личность создателя, историю редактирования, временную метку, использованные инструменты и статус проверки подписи. Зеленая галочка указывает, что контент не был изменен с момента подписания.",
-      url: "https://c2pa.wiki/ru/getting-started/quick-start/"
+    {,
+      name: 'Review provenance information',,
+      text: 'Examine the displayed information including creator identity, creation date, editing history, and signature validation status.',
     },
-    {
-      name: "Проверьте статус подписи",
-      text: "Убедитесь, что подпись отображается как 'Действительна'. Если подпись повреждена или отображаются предупреждения, контент мог быть изменен после подписания, или может быть проблема с сертификатом подписи. Действительная подпись подтверждает целостность контента.",
-      url: "https://c2pa.wiki/ru/getting-started/faq/"
+    {,
+      name: 'Verify signature status',,
+      text: 'Check that the signature shows as Valid with a green checkmark, confirming the content has not been tampered with since signing.',
     }
   ]
 };

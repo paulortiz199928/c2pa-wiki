@@ -1,62 +1,41 @@
 /**
- * English HowTo data for Quick Start Guide
+ * HowTo data for Schema.org HowTo structured data
+ * Language: English
  *
- * Source: src/content/docs/getting-started/quick-start.md
- * Focus: "How to verify C2PA content" - highest search intent
- *
- * Target keywords:
- * - "how to verify c2pa"
- * - "how to use c2pa"
- * - "c2pa verification guide"
- * - "check c2pa content"
- *
- * @see .internal/SEO_STRATEGY.md
+ * Auto-generated from awesome-c2pa repository
+ * Source: https://github.com/paulortiz199928/awesome-c2pa
  */
 
 export interface HowToStep {
   name: string;
   text: string;
   url?: string;
-  image?: string;
 }
 
 export interface HowToData {
   name: string;
   description: string;
-  totalTime?: string;
+  totalTime: string;
   steps: HowToStep[];
-  image?: string;
 }
 
 export const quickStartHowTo: HowToData = {
-  name: "How to Verify C2PA Content",
-  description: "Learn how to verify the authenticity and provenance of digital content using C2PA (Coalition for Content Provenance and Authenticity) tools. This guide covers three methods: online tool, browser extension, and command-line verification.",
-  totalTime: "PT5M", // 5 minutes
+  name: 'How to Verify C2PA Content',
+  description: 'Learn how to verify the authenticity and provenance of digital content using C2PA tools in just 5 minutes.',
+  totalTime: 'PT5M',
   steps: [
-    {
-      name: "Visit the Content Credentials Verify Tool",
-      text: "Open your web browser and navigate to https://contentcredentials.org/verify. This is Adobe's official free tool for verifying C2PA content, requiring no installation or account creation.",
-      url: "https://contentcredentials.org/verify"
+    {,
+      name: 'View provenance information:',,
+      text: '- Creator identity - Editing history - Signature status - Original content (if available) Try it now with sample images from: https://contentauthenticity.org/examples For automatic verification while browsing:',
+      url: 'https://contentcredentials.org/verify',
     },
-    {
-      name: "Upload Your Content File",
-      text: "Drag and drop any image, video, or document onto the verification page. Supported formats include JPEG, PNG, MP4, MOV, PDF, and many others. The file is analyzed locally in your browser for privacy.",
-      url: "https://c2pa.wiki/getting-started/quick-start/#method-1-online-tool-easiest"
+    {,
+      name: 'Install [Content Credentials Extension](https://chrome.google.com/webstore)',,
+      text: '- Available for Chrome, Edge, Brave',
     },
-    {
-      name: "Review Provenance Information",
-      text: "Examine the displayed provenance data including creator identity, editing history, timestamps, tools used, and signature validation status. A green checkmark indicates the content has not been tampered with since signing.",
-      url: "https://c2pa.wiki/getting-started/quick-start/#verifying-c2pa-content"
-    },
-    {
-      name: "Check the Signature Status",
-      text: "Verify that the signature shows as 'Valid'. If the signature is broken or shows warnings, the content may have been modified after signing or the signing certificate may have issues. Valid signatures confirm the content's integrity.",
-      url: "https://c2pa.wiki/getting-started/faq/#5-can-c2pa-be-removed"
-    },
-    {
-      name: "Explore the Editing History (Optional)",
-      text: "If the content has been edited, review the complete provenance chain showing all modifications. Each edit creates a new manifest that references the previous version as an 'ingredient', creating a traceable history from original to current state.",
-      url: "https://c2pa.wiki/getting-started/faq/#2-how-it-works"
+    {,
+      name: 'Click icon to view provenance details',,
+      text: 'For developers and power users:   ` File: photo.jpg Status: ✓ Valid C2PA signature Creator: John Doe (john@example.com) Created: 2025-11-21T10:30:00',
     }
   ]
 };
