@@ -20,7 +20,7 @@ hero:
 
 > C2PA(內容來源與真實性聯盟)資源精選清單,包含多語言規範、工具、程式庫和學習資料。
 
-**[English](../../README.md) | [简体中文](../zh-Hans/README.md) | 繁體中文 | [日本語](../ja/README.md) | [한국어](../ko/README.md) | [Deutsch](../de/README.md) | [Français](../fr/README.md) | [Русский](../ru/README.md)**
+**[English](/) | [简体中文](/zh-cn/) | 繁體中文 | [日本語](/ja/) | [한국어](/ko/) | [Deutsch](/de/) | [Français](/fr/) | [Русский](/ru/)**
 
 C2PA 是一項開放技術標準,為發布者、創作者和消費者提供追溯不同類型媒體來源的能力。在 AI 生成內容的時代,C2PA 有助於驗證內容的真實性和來源。
 
@@ -63,19 +63,19 @@ C2PA 規範 2.2 版提供多種語言版本。這些翻譯有助於全球開發�
 
 | 語言 | 文件 | 狀態 | 方法 | 最後更新 |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](../../docs/specifications/C2PA_Specification.pdf) | ✅ 官方版本 | C2PA Org | May 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](../../docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇹🇼 繁體中文 | [C2PA 規範 2.2](../../docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](../../docs/specifications/C2PA_Specification_ja.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](../../docs/specifications/C2PA_Specification_de.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](../../docs/specifications/C2PA_Specification_fr.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ 官方版本 | C2PA Org | May 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇹🇼 繁體中文 | [C2PA 規範 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
 | 🇰🇷 한국어 | 即將推出 | 🚧 規劃中 | - | - |
 | 🇪🇸 Español | 即將推出 | 🚧 規劃中 | - | - |
 | 🇵🇹 Português | 即將推出 | 🚧 規劃中 | - | - |
 
 > **翻譯聲明**:非英文翻譯採用 AI 輔助(DeepL)並經過社群審核。雖然我們力求準確,但仍可能存在錯誤。歡迎母語人士[回報問題](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)或提交修正。英文版本仍為權威參考。
 
-**快速導覽**:[檢視所有規範 →](../../docs/README.md)
+**快速導覽**:[檢視所有規範 →](/zh-tw/specifications/)
 
 ---
 
@@ -90,9 +90,9 @@ C2PA 規範 2.2 版提供多種語言版本。這些翻譯有助於全球開發�
 - ✅ 保護創作者署名和智慧財產權
 
 **想深入瞭解?**
-- 📖 [5 分鐘快速入門指南](quick-start.md) - 立即動手實作
-- ❓ [完整常見問題](faq.md) - 解答 25+ 個詳細問題
-- 📚 [技術規範](../../docs/README.md) - 深入探討標準
+- 📖 [5 分鐘快速入門指南](quick-start/) - 立即動手實作
+- ❓ [完整常見問題](faq/) - 解答 25+ 個詳細問題
+- 📚 [技術規範](/zh-tw/specifications/) - 深入探討標準
 
 ---
 
@@ -124,7 +124,7 @@ C2PA 在媒體檔案中加入經過加密簽署的中繼資料("manifest"),其�
 **費用**:標準和工具免費。憑證費用:每年約 50-500 美元。
 </details>
 
-**[→ 檢視所有 25+ 常見問題](faq.md)**,涵蓋技術細節、隱私、安全性和採用情況。
+**[→ 檢視所有 25+ 常見問題](faq/)**,涵蓋技術細節、隱私、安全性和採用情況。
 
 ---
 
@@ -182,7 +182,7 @@ C2PA 在媒體檔案中加入經過加密簽署的中繼資料("manifest"),其�
 
 ### 教學課程
 
-- [C2PA 快速入門指南](quick-start.md) - 5 分鐘 C2PA 實作入門
+- [C2PA 快速入門指南](quick-start/) - 5 分鐘 C2PA 實作入門
 - [C2PA 開發者文件](https://opensource.contentauthenticity.org/docs) - 官方入門指南和文件
 - [C2PA 開發者教學課程](https://opensource.contentauthenticity.org/docs/getting-started) - 逐步實作教學課程
 

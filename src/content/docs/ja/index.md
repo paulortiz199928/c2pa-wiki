@@ -20,7 +20,7 @@ hero:
 
 > C2PA（Coalition for Content Provenance and Authenticity）に関する厳選されたリソースのリスト。多言語仕様、ツール、ライブラリ、学習教材を含みます。
 
-**[English](../../README.md) | [简体中文](../zh-Hans/README.md) | [繁體中文](../zh-Hant/README.md) | 日本語 | [한국어](../ko/README.md) | [Deutsch](../de/README.md) | [Français](../fr/README.md) | [Русский](../ru/README.md)**
+**[English](/) | [简体中文](/zh-cn/) | [繁體中文](/zh-tw/) | 日本語 | [한국어](/ko/) | [Deutsch](/de/) | [Français](/fr/) | [Русский](/ru/)**
 
 C2PAは、パブリッシャー、クリエイター、コンシューマーがさまざまな種類のメディアの起源を追跡できるようにするオープン技術標準です。AI生成コンテンツの時代において、C2PAはコンテンツの真正性と来歴の検証に役立ちます。
 
@@ -63,18 +63,18 @@ C2PA仕様バージョン2.2は複数の言語で利用できます。これら�
 
 | 言語 | ドキュメント | ステータス | 方法 | 最終更新 |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](../../docs/specifications/C2PA_Specification.pdf) | ✅ 公式 | C2PA Org | 2025年5月 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](../../docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](../../docs/specifications/C2PA_Specification_ja.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](../../docs/specifications/C2PA_Specification_de.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](../../docs/specifications/C2PA_Specification_fr.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ 公式 | C2PA Org | 2025年5月 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
 | 🇰🇷 한국어 | Coming soon | 🚧 計画中 | - | - |
 | 🇪🇸 Español | Coming soon | 🚧 計画中 | - | - |
 | 🇵🇹 Português | Coming soon | 🚧 計画中 | - | - |
 
 > **翻訳に関する注意**: 英語以外の翻訳はAI支援（DeepL）とコミュニティレビューによるものです。正確性を目指していますが、エラーが存在する可能性があります。ネイティブスピーカーの方は、[問題を報告](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md)するか、修正を提出してください。英語版が権威のある参照元です。
 
-**クイックナビゲーション**: [すべての仕様を表示 →](../../docs/README.md)
+**クイックナビゲーション**: [すべての仕様を表示 →](/ja/specifications/)
 
 ---
 
@@ -89,9 +89,9 @@ C2PA仕様バージョン2.2は複数の言語で利用できます。これら�
 - ✅ クリエイターの帰属と知的財産を保護
 
 **さらに詳しく知りたい方は:**
-- 📖 [5分間クイックスタートガイド](quick-start.md) - すぐに実践
-- ❓ [完全版FAQ](faq.md) - 25以上の詳細な質問に回答
-- 📚 [技術仕様](../../docs/README.md) - 標準の詳細
+- 📖 [5分間クイックスタートガイド](quick-start/) - すぐに実践
+- ❓ [完全版FAQ](faq/) - 25以上の詳細な質問に回答
+- 📚 [技術仕様](/ja/specifications/) - 標準の詳細
 
 ---
 
@@ -123,7 +123,7 @@ C2PAは、来歴情報を含む暗号署名付きメタデータ（「manifest�
 **コスト**: 標準とツールは無料です。証明書の費用: 年間約$50-500。
 </details>
 
-**[→ 25以上のFAQをすべて表示](faq.md)** 技術的な詳細、プライバシー、セキュリティ、採用について。
+**[→ 25以上のFAQをすべて表示](faq/)** 技術的な詳細、プライバシー、セキュリティ、採用について。
 
 ---
 
@@ -181,7 +181,7 @@ C2PAは、来歴情報を含む暗号署名付きメタデータ（「manifest�
 
 ### チュートリアル
 
-- [C2PAクイックスタートガイド](quick-start.md) - C2PA実装への5分間の入門
+- [C2PAクイックスタートガイド](quick-start/) - C2PA実装への5分間の入門
 - [C2PA開発者ドキュメント](https://opensource.contentauthenticity.org/docs) - 公式入門ガイドとドキュメント
 - [C2PA開発者チュートリアル](https://opensource.contentauthenticity.org/docs/getting-started) - ステップバイステップの実装チュートリアル
 

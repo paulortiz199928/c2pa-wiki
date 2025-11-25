@@ -20,7 +20,7 @@ hero:
 
 > A curated list of C2PA (Coalition for Content Provenance and Authenticity) resources, including multi-language specifications, tools, libraries, and learning materials.
 
-**English | [简体中文](i18n/zh-Hans/README.md) | [繁體中文](i18n/zh-Hant/README.md) | [日本語](i18n/ja/README.md) | [한국어](i18n/ko/README.md) | [Deutsch](i18n/de/README.md) | [Français](i18n/fr/README.md) | [Русский](i18n/ru/README.md)**
+**English | [简体中文](/zh-cn/) | [繁體中文](/zh-tw/) | [日本語](/ja/) | [한국어](/ko/) | [Deutsch](/de/) | [Français](/fr/) | [Русский](/ru/)**
 
 C2PA is an open technical standard providing publishers, creators, and consumers the ability to trace the origin of different types of media. In the age of AI-generated content, C2PA helps verify content authenticity and provenance.
 
@@ -63,18 +63,18 @@ The C2PA specification version 2.2 is available in multiple languages. These tra
 
 | Language | Document | Status | Method | Last Updated |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](docs/specifications/C2PA_Specification.pdf) | ✅ Official | C2PA Org | May 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](docs/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](docs/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](docs/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ Official | C2PA Org | May 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | AI + Review | 2025 |
 | 🇰🇷 한국어 | Coming soon | 🚧 Planned | - | - |
 | 🇪🇸 Español | Coming soon | 🚧 Planned | - | - |
 | 🇵🇹 Português | Coming soon | 🚧 Planned | - | - |
 
 > **Translation Notice**: Non-English translations are AI-assisted (DeepL) with community review. While we strive for accuracy, errors may exist. Native speakers are encouraged to [report issues](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md) or submit corrections. The English version remains the authoritative reference.
 
-**Quick Navigation**: [View all specifications →](docs/README.md)
+**Quick Navigation**: [View all specifications →](/specifications/)
 
 ---
 
@@ -89,9 +89,9 @@ The C2PA specification version 2.2 is available in multiple languages. These tra
 - ✅ Protect creator attribution and intellectual property
 
 **Want to dive deeper?**
-- 📖 [5-Minute Quick Start Guide](docs/guides/quick-start.md) - Get hands-on immediately
-- ❓ [Complete FAQ](docs/guides/faq.md) - 25+ detailed questions answered
-- 📚 [Technical Specifications](docs/README.md) - Deep dive into the standard
+- 📖 [5-Minute Quick Start Guide](/getting-started/quick-start/) - Get hands-on immediately
+- ❓ [Complete FAQ](/getting-started/faq/) - 25+ detailed questions answered
+- 📚 [Technical Specifications](/specifications/) - Deep dive into the standard
 
 ---
 
@@ -123,7 +123,7 @@ C2PA adds cryptographically signed metadata ("manifests") to media files contain
 **Cost**: The standard and tools are free. Certificate fees: ~$50-500/year.
 </details>
 
-**[→ View all 25+ FAQs](docs/guides/faq.md)** covering technical details, privacy, security, and adoption.
+**[→ View all 25+ FAQs](/getting-started/faq/)** covering technical details, privacy, security, and adoption.
 
 ---
 
@@ -181,7 +181,7 @@ C2PA adds cryptographically signed metadata ("manifests") to media files contain
 
 ### Tutorials
 
-- [C2PA Quick Start Guide](docs/guides/quick-start.md) - 5-minute introduction to C2PA implementation
+- [C2PA Quick Start Guide](/getting-started/quick-start/) - 5-minute introduction to C2PA implementation
 - [C2PA Developer Documentation](https://opensource.contentauthenticity.org/docs) - Official getting started guide and documentation
 - [C2PA Developer Tutorial](https://opensource.contentauthenticity.org/docs/getting-started) - Step-by-step implementation tutorial
 

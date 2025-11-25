@@ -20,7 +20,7 @@ hero:
 
 > Une liste organisée de ressources C2PA (Coalition for Content Provenance and Authenticity), incluant des spécifications multilingues, des outils, des bibliothèques et des supports pédagogiques.
 
-**[English](../../README.md) | [简体中文](../zh-Hans/README.md) | [繁體中文](../zh-Hant/README.md) | [日本語](../ja/README.md) | [한국어](../ko/README.md) | [Deutsch](../de/README.md) | Français | [Русский](../ru/README.md)**
+**[English](/) | [简体中文](/zh-cn/) | [繁體中文](/zh-tw/) | [日本語](/ja/) | [한국어](/ko/) | [Deutsch](/de/) | Français | [Русский](/ru/)**
 
 C2PA est une norme technique ouverte qui permet aux éditeurs, créateurs et consommateurs de retracer l'origine de différents types de médias. À l'ère du contenu généré par l'IA, C2PA aide à vérifier l'authenticité et la provenance du contenu.
 
@@ -63,18 +63,18 @@ La spécification C2PA version 2.2 est disponible en plusieurs langues. Ces trad
 
 | Langue | Document | Statut | Méthode | Dernière mise à jour |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](../../docs/specifications/C2PA_Specification.pdf) | ✅ Officiel | C2PA Org | Mai 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](../../docs/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Bêta | IA + Révision | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](../../docs/specifications/C2PA_Specification_ja.pdf) | 🔄 Bêta | IA + Révision | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](../../docs/specifications/C2PA_Specification_de.pdf) | 🔄 Bêta | IA + Révision | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](../../docs/specifications/C2PA_Specification_fr.pdf) | 🔄 Bêta | IA + Révision | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ Officiel | C2PA Org | Mai 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Bêta | IA + Révision | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 Bêta | IA + Révision | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 Bêta | IA + Révision | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 Bêta | IA + Révision | 2025 |
 | 🇰🇷 한국어 | Prochainement | 🚧 Planifié | - | - |
 | 🇪🇸 Español | Prochainement | 🚧 Planifié | - | - |
 | 🇵🇹 Português | Prochainement | 🚧 Planifié | - | - |
 
 > **Avis de traduction** : Les traductions non anglaises sont assistées par IA (DeepL) avec révision communautaire. Bien que nous nous efforcions d'être précis, des erreurs peuvent subsister. Les locuteurs natifs sont encouragés à [signaler les problèmes](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md) ou à soumettre des corrections. La version anglaise reste la référence officielle.
 
-**Navigation rapide** : [Voir toutes les spécifications →](../../docs/README.md)
+**Navigation rapide** : [Voir toutes les spécifications →](/fr/specifications/)
 
 ---
 
@@ -89,9 +89,9 @@ La spécification C2PA version 2.2 est disponible en plusieurs langues. Ces trad
 - ✅ Protéger l'attribution des créateurs et la propriété intellectuelle
 
 **Vous souhaitez approfondir ?**
-- 📖 [Guide de démarrage rapide en 5 minutes](quick-start.md) - Démarrez immédiatement
-- ❓ [FAQ complète](faq.md) - Plus de 25 questions détaillées
-- 📚 [Spécifications techniques](../../docs/README.md) - Plongez dans la norme
+- 📖 [Guide de démarrage rapide en 5 minutes](quick-start/) - Démarrez immédiatement
+- ❓ [FAQ complète](faq/) - Plus de 25 questions détaillées
+- 📚 [Spécifications techniques](/fr/specifications/) - Plongez dans la norme
 
 ---
 
@@ -123,7 +123,7 @@ C2PA ajoute des métadonnées signées cryptographiquement (« manifests ») aux
 **Coût** : La norme et les outils sont gratuits. Frais de certificat : environ 50-500 $/an.
 </details>
 
-**[→ Voir les 25+ FAQ](faq.md)** couvrant les détails techniques, la confidentialité, la sécurité et l'adoption.
+**[→ Voir les 25+ FAQ](faq/)** couvrant les détails techniques, la confidentialité, la sécurité et l'adoption.
 
 ---
 
@@ -182,7 +182,7 @@ C2PA ajoute des métadonnées signées cryptographiquement (« manifests ») aux
 
 ### Tutoriels
 
-- [Guide de démarrage rapide C2PA](quick-start.md) - Introduction de 5 minutes à l'implémentation C2PA
+- [Guide de démarrage rapide C2PA](quick-start/) - Introduction de 5 minutes à l'implémentation C2PA
 - [Documentation développeur C2PA](https://opensource.contentauthenticity.org/docs) - Guide de démarrage et documentation officiels
 - [Tutoriel développeur C2PA](https://opensource.contentauthenticity.org/docs/getting-started) - Tutoriel d'implémentation pas à pas
 
