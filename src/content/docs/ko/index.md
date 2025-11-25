@@ -1,3 +1,21 @@
+---
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation - 한국어
+template: splash
+hero:
+  title: C2PA Wiki
+  tagline: Content Provenance and Authenticity
+  actions:
+    - text: 빠른 시작
+      link: /ko/getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: 사양 보기
+      link: /ko/specifications/
+      icon: external
+      variant: secondary
+---
+
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 다국어 규격, 도구, 라이브러리 및 학습 자료를 포함한 C2PA(Coalition for Content Provenance and Authenticity) 리소스 모음입니다.
