@@ -108,7 +108,7 @@ export default defineConfig({
       },
       lastUpdated: true,
       pagination: true,
-      favicon: '/favicon.ico',
+      favicon: '/favicon.svg',
       head: [
         {
           tag: 'meta',
