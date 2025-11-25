@@ -63,12 +63,12 @@ C2PA — это открытый технический стандарт, пре
 
 | Язык | Документ | Статус | Метод | Последнее обновление |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ Официальная | C2PA Org | Май 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
-| 🇷🇺 Русский | [Спецификация C2PA 2.2](/specifications/C2PA_Specification.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ Официальная | C2PA Org | Май 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
+| 🇷🇺 Русский | [Спецификация C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | 🔄 Бета | ИИ + Проверка | 2025 |
 | 🇰🇷 한국어 | Скоро | 🚧 Планируется | - | - |
 | 🇪🇸 Español | Скоро | 🚧 Планируется | - | - |
 | 🇵🇹 Português | Скоро | 🚧 Планируется | - | - |

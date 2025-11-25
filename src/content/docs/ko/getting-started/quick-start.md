@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### 더 알아보기
 
 **규격 이해:**
-- [English](/specifications/C2PA_Specification.pdf)
-- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](/specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **도구 탐색:**
 - [도구 및 라이브러리](README.md#도구-및-라이브러리) - 모든 주요 언어용 SDK

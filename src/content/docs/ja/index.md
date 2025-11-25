@@ -63,11 +63,11 @@ C2PA仕様バージョン2.2は複数の言語で利用できます。これら�
 
 | 言語 | ドキュメント | ステータス | 方法 | 最終更新 |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ 公式 | C2PA Org | 2025年5月 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ 公式 | C2PA Org | 2025年5月 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 ベータ | AI + レビュー | 2025年 |
 | 🇰🇷 한국어 | Coming soon | 🚧 計画中 | - | - |
 | 🇪🇸 Español | Coming soon | 🚧 計画中 | - | - |
 | 🇵🇹 Português | Coming soon | 🚧 計画中 | - | - |

@@ -63,18 +63,18 @@ The C2PA specification version 2.2 is available in multiple languages. These tra
 
 | Language | Document | Status | Method | Last Updated |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ Official | C2PA Org | May 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | AI + Review | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ Official | C2PA Org | May 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | AI + Review | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | AI + Review | 2025 |
 | 🇰🇷 한국어 | Coming soon | 🚧 Planned | - | - |
 | 🇪🇸 Español | Coming soon | 🚧 Planned | - | - |
 | 🇵🇹 Português | Coming soon | 🚧 Planned | - | - |
 
 > **Translation Notice**: Non-English translations are AI-assisted (DeepL) with community review. While we strive for accuracy, errors may exist. Native speakers are encouraged to [report issues](https://github.com/paulortiz199928/awesome-c2pa/issues/new?template=translation.md) or submit corrections. The English version remains the authoritative reference.
 
-**Quick Navigation**: [View all specifications →](/specifications/)
+**Quick Navigation**: [View all specifications →](https://c2pa.wiki/specifications/)
 
 ---
 
@@ -91,7 +91,7 @@ The C2PA specification version 2.2 is available in multiple languages. These tra
 **Want to dive deeper?**
 - 📖 [5-Minute Quick Start Guide](/getting-started/quick-start/) - Get hands-on immediately
 - ❓ [Complete FAQ](/getting-started/faq/) - 25+ detailed questions answered
-- 📚 [Technical Specifications](/specifications/) - Deep dive into the standard
+- 📚 [Technical Specifications](https://c2pa.wiki/specifications/) - Deep dive into the standard
 
 ---
 

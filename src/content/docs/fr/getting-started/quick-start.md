@@ -345,10 +345,10 @@ Le nouveau manifest référencera `original_photo.jpg` comme ingrédient, prése
 ### En savoir plus
 
 **Comprendre la spécification :**
-- [English](/specifications/C2PA_Specification.pdf)
-- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](/specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Explorer les outils :**
 - [Outils et bibliothèques](README.md#outils-et-bibliothèques) - SDK pour tous les principaux langages

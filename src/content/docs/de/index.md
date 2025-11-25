@@ -63,11 +63,11 @@ Die C2PA-Spezifikation Version 2.2 ist in mehreren Sprachen verfügbar. Diese Ü
 
 | Sprache | Dokument | Status | Methode | Zuletzt aktualisiert |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ Offiziell | C2PA Org | Mai 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | KI + Review | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | KI + Review | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | KI + Review | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | KI + Review | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ Offiziell | C2PA Org | Mai 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 Beta | KI + Review | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 Beta | KI + Review | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 Beta | KI + Review | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 Beta | KI + Review | 2025 |
 | 🇰🇷 한국어 | Demnächst verfügbar | 🚧 Geplant | - | - |
 | 🇪🇸 Español | Demnächst verfügbar | 🚧 Geplant | - | - |
 | 🇵🇹 Português | Demnächst verfügbar | 🚧 Geplant | - | - |

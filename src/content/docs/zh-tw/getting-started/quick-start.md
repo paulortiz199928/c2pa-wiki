@@ -345,11 +345,11 @@ c2patool edited_photo.jpg \
 ### 進一步學習
 
 **理解規範:**
-- [English](/specifications/C2PA_Specification.pdf)
-- [简体中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [繁體中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](/specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [简体中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [繁體中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **探索工具:**
 - [工具與程式庫](README.md#工具與程式庫) - 所有主要語言的 SDK

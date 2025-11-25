@@ -345,10 +345,10 @@ c2patool edited_photo.jpg \
 ### さらに学ぶ
 
 **仕様を理解する:**
-- [English](/specifications/C2PA_Specification.pdf)
-- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](/specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **ツールを探索:**
 - [ツールとライブラリ](README.md#ツールとライブラリ) - すべての主要言語向けSDK

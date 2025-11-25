@@ -63,12 +63,12 @@ C2PA 規範 2.2 版提供多種語言版本。這些翻譯有助於全球開發�
 
 | 語言 | 文件 | 狀態 | 方法 | 最後更新 |
 |----------|----------|--------|--------|--------------|
-| 🇬🇧 English | [C2PA Specification 2.2](/specifications/C2PA_Specification.pdf) | ✅ 官方版本 | C2PA Org | May 2025 |
-| 🇨🇳 简体中文 | [C2PA 规范 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇹🇼 繁體中文 | [C2PA 規範 2.2](/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇯🇵 日本語 | [C2PA 仕様 2.2](/specifications/C2PA_Specification_ja.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](/specifications/C2PA_Specification_de.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
-| 🇫🇷 Français | [Spécification C2PA 2.2](/specifications/C2PA_Specification_fr.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇬🇧 English | [C2PA Specification 2.2](https://c2pa.wiki/specifications/C2PA_Specification.pdf) | ✅ 官方版本 | C2PA Org | May 2025 |
+| 🇨🇳 简体中文 | [C2PA 规范 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇹🇼 繁體中文 | [C2PA 規範 2.2](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇯🇵 日本語 | [C2PA 仕様 2.2](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇩🇪 Deutsch | [C2PA Spezifikation 2.2](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
+| 🇫🇷 Français | [Spécification C2PA 2.2](https://c2pa.wiki/specifications/C2PA_Specification_fr.pdf) | 🔄 測試版 | AI + 審核 | 2025 |
 | 🇰🇷 한국어 | 即將推出 | 🚧 規劃中 | - | - |
 | 🇪🇸 Español | 即將推出 | 🚧 規劃中 | - | - |
 | 🇵🇹 Português | 即將推出 | 🚧 規劃中 | - | - |

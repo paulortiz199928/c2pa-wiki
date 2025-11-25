@@ -345,10 +345,10 @@ Das neue Manifest verweist auf `original_photo.jpg` als Zutat und bewahrt so die
 ### Mehr erfahren
 
 **Die Spezifikation verstehen:**
-- [English](/specifications/C2PA_Specification.pdf)
-- [中文](/specifications/C2PA_Specification_zh-Hans.pdf)
-- [日本語](/specifications/C2PA_Specification_ja.pdf)
-- [Deutsch](/specifications/C2PA_Specification_de.pdf)
+- [English](https://c2pa.wiki/specifications/C2PA_Specification.pdf)
+- [中文](https://c2pa.wiki/specifications/C2PA_Specification_zh-Hans.pdf)
+- [日本語](https://c2pa.wiki/specifications/C2PA_Specification_ja.pdf)
+- [Deutsch](https://c2pa.wiki/specifications/C2PA_Specification_de.pdf)
 
 **Tools erkunden:**
 - [Tools & Bibliotheken](README.md#tools--bibliotheken) - SDKs für alle gängigen Sprachen
