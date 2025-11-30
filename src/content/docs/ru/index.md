@@ -1,3 +1,21 @@
+---
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation - Русский
+template: splash
+hero:
+  title: C2PA Wiki
+  tagline: Content Provenance and Authenticity
+  actions:
+    - text: Быстрый старт
+      link: /ru/getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: Посмотреть спецификации
+      link: /ru/specifications/
+      icon: external
+      variant: secondary
+---
+
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Тщательно подобранный список ресурсов C2PA (Coalition for Content Provenance and Authenticity), включая многоязычные спецификации, инструменты, библиотеки и учебные материалы.
