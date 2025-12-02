@@ -223,14 +223,6 @@ export default defineConfig({
       pagination: true,
       favicon: '/favicon.svg',
       head: [
-        // Baidu Site Verification
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'baidu-site-verification',
-            content: 'codeva-uAWFew2txd',
-          },
-        },
         {
           tag: 'meta',
           attrs: {
