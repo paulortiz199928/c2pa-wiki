@@ -6,7 +6,7 @@ export default defineConfig({
   site: 'https://c2pa.wiki',
   integrations: [
     starlight({
-      title: 'C2PA Wiki',
+      title: 'C2PA',
       description: 'Comprehensive documentation for the Coalition for Content Provenance and Authenticity',
       social: [
         {
