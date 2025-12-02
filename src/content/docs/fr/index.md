@@ -1,20 +1,21 @@
 ---
-title: Standard de Provenance et d'Authenticité du Contenu
-description: Guide complet sur la provenance et l'authenticité du contenu C2PA
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation - Français
 template: splash
 hero:
-  title: C2PA Encyclopédie
-  tagline: Guide complet sur la provenance et l'authenticité du contenu C2PA
+  title: C2PA Wiki
+  tagline: Content Provenance and Authenticity
   actions:
     - text: Démarrage rapide
       link: /fr/getting-started/quick-start/
       icon: right-arrow
       variant: primary
     - text: Voir les spécifications
-      link: /specifications/
+      link: /fr/specifications/
       icon: external
       variant: secondary
 ---
+
 
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 

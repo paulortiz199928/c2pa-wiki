@@ -1,9 +1,9 @@
 ---
-title: Content Provenance & Authenticity Standard
+title: C2PA Wiki
 description: Your comprehensive guide to Content Provenance and Authenticity
 template: splash
 hero:
-  title: C2PA
+  title: C2PA Wiki
   tagline: Your comprehensive guide to Content Provenance and Authenticity
   actions:
     - text: Quick Start
@@ -15,6 +15,7 @@ hero:
       icon: external
       variant: secondary
 ---
+
 
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
