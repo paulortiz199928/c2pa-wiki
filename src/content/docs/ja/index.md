@@ -1,20 +1,21 @@
 ---
-title: コンテンツ来歴と真正性の標準
-description: C2PA コンテンツ来歴と真正性に関する包括的なガイド
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation - 日本語
 template: splash
 hero:
-  title: C2PA 百科事典
-  tagline: C2PA コンテンツ来歴と真正性に関する包括的なガイド
+  title: C2PA Wiki
+  tagline: Content Provenance and Authenticity
   actions:
     - text: クイックスタート
       link: /ja/getting-started/quick-start/
       icon: right-arrow
       variant: primary
-    - text: 仕様を表示
-      link: /specifications/
+    - text: 仕様を見る
+      link: /ja/specifications/
       icon: external
       variant: secondary
 ---
+
 
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
