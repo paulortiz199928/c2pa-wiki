@@ -1,20 +1,21 @@
 ---
-title: Стандарт происхождения и подлинности контента
-description: Полное руководство по происхождению и подлинности контента C2PA
+title: C2PA Wiki
+description: Content Provenance and Authenticity Documentation - Русский
 template: splash
 hero:
-  title: C2PA Энциклопедия
-  tagline: Полное руководство по происхождению и подлинности контента C2PA
+  title: C2PA Wiki
+  tagline: Content Provenance and Authenticity
   actions:
     - text: Быстрый старт
       link: /ru/getting-started/quick-start/
       icon: right-arrow
       variant: primary
-    - text: Просмотр спецификаций
-      link: /specifications/
+    - text: Посмотреть спецификации
+      link: /ru/specifications/
       icon: external
       variant: secondary
 ---
+
 
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 

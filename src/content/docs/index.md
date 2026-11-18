@@ -1,9 +1,9 @@
 ---
-title: Content Provenance & Authenticity Standard
+title: C2PA Wiki
 description: Your comprehensive guide to Content Provenance and Authenticity
 template: splash
 hero:
-  title: C2PA
+  title: C2PA Wiki
   tagline: Your comprehensive guide to Content Provenance and Authenticity
   actions:
     - text: Quick Start
@@ -15,6 +15,7 @@ hero:
       icon: external
       variant: secondary
 ---
+
 
 # Awesome C2PA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -175,6 +176,7 @@ C2PA adds cryptographically signed metadata ("manifests") to media files contain
 ## 🌐 Applications
 
 - [Content Credentials Verify](https://contentcredentials.org/verify) - Official web tool for verifying C2PA content
+- [isGenAI C2PA checker](https://isgenai.com/tools/c2pa-checker) - Free web tool that reads C2PA manifests and reports cryptographic validation and signer trust as separate findings, alongside IPTC AI labels
 ---
 
 ## 📖 Learning Resources
